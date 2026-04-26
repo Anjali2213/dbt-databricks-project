@@ -1,3 +1,2 @@
 .env
-logs/
-dbt.log
+logs/dbt.log
