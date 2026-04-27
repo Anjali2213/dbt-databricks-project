@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: dbt
+    database: dbt
+    schema: source
+    tables:
+      - name: dim_customer
+      - name: dim_product
+      - name: dim_storeß
+      - name: dim_date
+      - name: fact_sales
+      - name: fact_returns
