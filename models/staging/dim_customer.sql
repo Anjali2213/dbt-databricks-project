@@ -1,7 +1,7 @@
 {{
     config(
         materialized = 'table',
-        pre_hook="UPDATE {{ source('dbt', 'dim_customer') }} SET gender = 'other2' WHERE gender = 'other' OR gender = 'Other'"
+        post_hook="UPDATE {{ this }} SET gender = 'other' WHERE gender = 'other2'"
     )
 }}
 
