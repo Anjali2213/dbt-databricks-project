@@ -1,6 +1,7 @@
 {{
     config(
-        materialized = 'table'
+        materialized = 'table',
+        post_hook="DELETE FROM {{ this }} WHERE gender = 'other'"
     )
 }}
 
