@@ -3,10 +3,10 @@ dbt_databricks_project:
     dev:
       type: databricks
       method: http
-      host: "{{ env_var('DBT_HOST') }}"
-      http_path: "{{ env_var('DBT_HTTP_PATH') }}"
-      token: "{{ env_var('DBT_TOKEN') }}"
-      catalog: "{{ env_var('DBT_CATALOG') }}"
-      schema: "{{ env_var('DBT_SCHEMA') }}"
+      host: dbc-64a4cdca-7b07.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/df7494fde2b0ba4e
+      token: dapic18ddbb0af369e1dc1e77a9f3c64f5e8
+      catalog: dbt
+      schema: source
       threads: 1
   target: dev
