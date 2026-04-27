@@ -1,7 +1,7 @@
 {{
     config(
         materialized = 'table',
-        pre_hook="DELETE FROM {{ this }} WHERE gender = 'Other'"
+        pre_hook="UPDATE {{ this }} SET gender = 'other2' WHERE gender = 'other'"
     )
 }}
 
