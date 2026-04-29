@@ -1,0 +1,66 @@
+==================== 2026-04-29T09:00:19.352040Z | 4da12c13-80b4-4f86-86bf-128a2db0a4ba ====================
+09:00:19.354333 [info ]: Starting dbt LSP server
+09:00:19.354950 [info ]: Connecting to LSP client on port 8000
+09:00:19.356179 [info ]: Successfully connected to LSP client
+09:00:19.356195 [info ]: Creating LSP service...
+09:00:19.401102 [info ]: Creating LSP server...
+09:00:19.401118 [info ]: Starting LSP server...
+09:00:19.447345 [info ]: Loading profiles.yml
+09:00:19.483378 [info ]: Waiting for lease on 'target' directory
+09:00:20.010589 [info ]: Started loading project
+09:00:20.011547 [info ]: Loading profiles.yml
+09:00:20.128629 [debug]:    Started loading packages
+09:00:20.129623 [debug]:     Loaded [  0.00s] packages
+09:00:20.136189 [info ]: Started parsing
+09:00:20.164691 [info ]: Finished loading project [  0.15s]
+09:00:20.176495 [debug]: Finished parsing models/source.yml [  0.01s]
+09:00:20.191893 [debug]: Finished parsing models/staging/dim_customer.sql [  0.01s]
+09:00:20.195593 [info ]: Finished parsing [  0.06s]
+09:00:20.196263 [info ]: Cached model count updated: 1 models (estimate)
+09:00:20.196270 [info ]: Cached model count updated: 1 models (accurate)
+09:00:20.198334 [info ]: Started scheduling
+09:00:20.200359 [info ]: Finished scheduling [  0.00s]
+09:00:20.200932 [debug]: Compilation - 1 nodes selected: {"model.dbt_databricks_project.dim_customer"}
+09:00:20.200957 [info ]: Started scheduling
+09:00:20.200968 [info ]: Finished scheduling [  0.00s]
+09:00:20.206920 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "dbt", schema: "source", table: "dim_customer" }) and interval: None
+09:00:20.324121 [info ]: Started building task graph
+09:00:20.327386 [info ]: Finished building task graph [  0.00s]
+09:00:20.332664 [info ]: Started rendering (1 nodes)
+09:00:20.333437 [info ]: Started model source.dim_customer
+09:00:20.333632 [debug]: Started rendering model source.dim_customer
+09:00:20.337740 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_customer at target/.lsp/compiled/models/staging/dim_customer.sql
+09:00:20.339706 [debug]: Finished rendering [  0.01s] model source.dim_customer [success]
+09:00:20.339716 [info ]: Finished rendering [  0.01s] (1 nodes, 0 skipped, 0 errors)
+09:00:20.339777 [info ]: Started analyzing (1 nodes)
+09:00:20.339782 [debug]: Started analyzing model source.dim_customer
+09:00:20.359204 [info ]:  Succeeded [  0.02s] model source.dim_customer (table)
+09:00:20.359223 [debug]: Finished analyzing [  0.02s] model source.dim_customer [success]
+09:00:20.359226 [info ]: Finished analyzing [  0.02s] (1 nodes, 0 skipped, 0 errors)
+09:00:20.365472 [info ]: Started scheduling
+09:00:20.365489 [info ]: Finished scheduling [  0.00s]
+09:00:20.365879 [info ]: Cached model count updated: 1 models (accurate)
+09:00:21.555413 [info ]: Started loading project
+09:00:21.555932 [info ]: Loading profiles.yml
+09:00:21.586323 [info ]: Cached model count updated: 1 models (estimate)
+09:00:21.586353 [info ]: Cached model count updated: 1 models (accurate)
+09:00:21.586386 [info ]: Started scheduling
+09:00:21.586447 [info ]: Finished scheduling [  0.00s]
+09:00:21.586462 [debug]: Compilation - 1 nodes selected: {"model.dbt_databricks_project.dim_customer"}
+09:00:21.715548 [info ]: Started building task graph
+09:00:21.715577 [info ]: Finished building task graph [  0.00s]
+09:00:21.715647 [info ]: Started rendering (1 nodes)
+09:00:21.715656 [info ]: Started model source.dim_customer
+09:00:21.715662 [debug]: Started rendering model source.dim_customer
+09:00:21.715688 [info ]: Finished loading project [  0.16s]
+09:00:21.716607 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_customer at target/.lsp/compiled/models/staging/dim_customer.sql
+09:00:21.716655 [debug]: Finished rendering [  0.00s] model source.dim_customer [success]
+09:00:21.716661 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+09:00:21.716670 [info ]: Started analyzing (1 nodes)
+09:00:21.716674 [debug]: Started analyzing model source.dim_customer
+09:00:21.716860 [info ]:  Succeeded [-------] model source.dim_customer (table)
+09:00:21.716867 [debug]: Finished analyzing [  0.00s] model source.dim_customer [success]
+09:00:21.716869 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+09:00:21.718354 [info ]: Started scheduling
+09:00:21.718375 [info ]: Finished scheduling [  0.00s]
+09:00:21.719534 [info ]: Cached model count updated: 1 models (accurate)

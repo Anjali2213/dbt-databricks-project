@@ -292,3 +292,67 @@ Visit https://docs.getdbt.com/reference/global-configs/behavior-changes for more
 [0m17:21:24.168261 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104647f50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1054701a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cf018b0>]}
 [0m17:21:24.168749 [debug] [MainThread]: Flushing usage events
 [0m17:21:25.484123 [debug] [MainThread]: An error was encountered while trying to flush usage events
+==================== 2026-04-29T08:41:06.266981Z | 019dd866-25d8-7211-bb0e-ebfd6fd120b7 ====================
+==================== 2026-04-29T08:41:18.597973Z | 019dd866-5604-7522-94d0-c91c975a3465 ====================
+08:41:18.598102 [info ]: dbt-fusion 2.0.0-preview.173
+08:41:18.598287 [info ]: Started loading project
+08:41:18.599404 [info ]: Loading profiles.yml
+08:41:18.704509 [debug]:    Started loading packages
+08:41:18.705072 [debug]:     Loaded [  0.00s] packages
+08:41:18.705477 [info ]: Finished loading project [  0.11s]
+08:41:18.705647 [info ]: Started parsing
+08:41:18.720383 [debug]: Finished parsing models/source.yml [  0.00s]
+08:41:18.721420 [debug]: Finished parsing models/staging/dim_customer.sql [  0.00s]
+08:41:18.722298 [info ]: Finished parsing [  0.02s]
+08:41:18.722594 [info ]: Started scheduling
+08:41:18.722841 [info ]: Finished scheduling [  0.00s]
+08:41:18.723231 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "dbt", schema: "source", table: "dim_customer" }) and interval: None
+08:41:18.806683 [info ]: Started building task graph
+08:41:18.806876 [info ]: Finished building task graph [  0.00s]
+08:41:18.807315 [info ]: Started rendering (1 nodes)
+08:41:18.807432 [info ]: Started model source.dim_customer
+08:41:18.807477 [debug]: Started rendering model source.dim_customer
+08:41:18.808259 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_customer at target/compiled/models/staging/dim_customer.sql
+08:41:18.808487 [info ]:  Succeeded [  0.00s] model source.dim_customer (table)
+08:41:18.808520 [debug]: Finished rendering [  0.00s] model source.dim_customer [success]
+08:41:18.808545 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+08:41:19.830940 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [1.2s]
+Processed: 1 model
+Summary: 1 total | 1 success
+==================== 2026-04-29T08:41:21.960454Z | 019dd866-6327-7883-8291-d4b768fc1c66 ====================
+08:41:21.960590 [info ]: dbt-fusion 2.0.0-preview.173
+08:41:21.960776 [info ]: Started loading project
+08:41:21.961777 [info ]: Loading profiles.yml
+08:41:22.066753 [debug]:    Started loading packages
+08:41:22.067343 [debug]:     Loaded [  0.00s] packages
+08:41:22.067774 [info ]: Finished loading project [  0.11s]
+08:41:22.067957 [info ]: Started parsing
+08:41:22.083201 [debug]: Finished parsing models/source.yml [  0.00s]
+08:41:22.084067 [debug]: Finished parsing models/staging/dim_customer.sql [  0.00s]
+08:41:22.084941 [info ]: Finished parsing [  0.02s]
+08:41:22.085154 [info ]: Started scheduling
+08:41:22.085212 [info ]: Finished scheduling [  0.00s]
+08:41:22.085317 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "dbt", schema: "source", table: "dim_customer" }) and interval: None
+08:41:22.169604 [info ]: Started building task graph
+08:41:22.169708 [info ]: Finished building task graph [  0.00s]
+08:41:22.169837 [info ]: Started rendering (1 nodes)
+08:41:22.169863 [info ]: Started model source.dim_customer
+08:41:22.169874 [debug]: Started rendering model source.dim_customer
+08:41:22.170282 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_customer at target/compiled/models/staging/dim_customer.sql
+08:41:22.170363 [debug]: Finished rendering [  0.00s] model source.dim_customer [success]
+08:41:22.170384 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+08:41:22.170412 [info ]: Started analyzing (1 nodes)
+08:41:22.170422 [debug]: Started analyzing model source.dim_customer
+08:41:22.173638 [info ]:  Succeeded [  0.00s] model source.dim_customer (table)
+08:41:22.173650 [debug]: Finished analyzing [  0.00s] model source.dim_customer [success]
+08:41:22.173665 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+08:41:23.199646 [info ]: 
+==================== Execution Summary =====================
+Finished 'compile' successfully for target 'dev' [1.2s]
+Processed: 1 model
+Summary: 1 total | 1 success
+08:41:30.525817 [info ]: 
+==================== Execution Summary =====================
+Finished 'init' successfully [24.3s]
