@@ -1500,3 +1500,145 @@
 09:12:45.314524 [info ]: Started scheduling
 09:12:45.314543 [info ]: Finished scheduling [  0.00s]
 09:12:45.315173 [info ]: Cached model count updated: 3 models (accurate)
+09:17:52.013495 [info ]: Loading profiles.yml
+09:17:52.025211 [info ]: Started loading project
+09:17:52.025415 [info ]: Loading profiles.yml
+09:17:52.027232 [info ]: Started loading project
+09:17:52.027357 [info ]: Loading profiles.yml
+09:17:52.027374 [info ]: Finished loading project [  0.00s]
+09:17:52.124779 [debug]:    Started loading packages
+09:17:52.125237 [debug]:     Loaded [  0.00s] packages
+09:17:52.125677 [info ]: Started parsing
+09:17:52.139598 [error]: dbt1013: Invalid model definition `dbt_databricks_project.+staging.materialized`: invalid type: string "table", expected struct ProjectModelConfig at line 35 column 21
+  --> dbt_project.yml:35:21
+09:17:52.139660 [info ]: Finished loading project [  0.11s]
+09:17:52.140436 [debug]: Finished parsing models/source.yml [  0.00s]
+09:17:52.141209 [debug]: Finished parsing models/staging/dim_customer.sql [  0.00s]
+09:17:52.141495 [debug]: Finished parsing models/staging/dim_date.sql [  0.00s]
+09:17:52.142334 [debug]: Finished parsing models/staging/dim_store.sql [  0.00s]
+09:17:52.142804 [info ]: Finished parsing [  0.02s]
+09:17:52.142910 [info ]: Cached model count updated: 3 models (estimate)
+09:17:52.142916 [info ]: Cached model count updated: 3 models (accurate)
+09:17:52.142926 [info ]: Started scheduling
+09:17:52.142941 [info ]: Finished scheduling [  0.00s]
+09:17:52.142945 [debug]: Compilation - 0 nodes selected: {}
+09:17:52.142950 [warn ]: dbt1600: The selection criterion '' does not match any enabled nodes
+09:17:52.142955 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:17:52.142958 [info ]: Started scheduling
+09:17:52.142978 [info ]: Finished scheduling [  0.00s]
+09:17:52.142990 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "dbt", schema: "source", table: "dim_store" }) and interval: None
+09:17:52.142997 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "dbt", schema: "source", table: "dim_customer" }) and interval: None
+09:17:52.143001 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "dbt", schema: "source", table: "dim_date" }) and interval: None
+09:17:52.228146 [info ]: Started building task graph
+09:17:52.228165 [info ]: Finished building task graph [  0.00s]
+09:17:52.229716 [info ]: Started scheduling
+09:17:52.229738 [info ]: Finished scheduling [  0.00s]
+09:17:52.230777 [info ]: Cached model count updated: 3 models (accurate)
+09:17:53.415174 [info ]: Started loading project
+09:17:53.415393 [info ]: Loading profiles.yml
+09:17:53.429309 [info ]: Cached model count updated: 3 models (estimate)
+09:17:53.429324 [info ]: Cached model count updated: 3 models (accurate)
+09:17:53.429340 [info ]: Started scheduling
+09:17:53.429377 [info ]: Finished scheduling [  0.00s]
+09:17:53.429386 [debug]: Compilation - 3 nodes selected: {"model.dbt_databricks_project.dim_customer", "model.dbt_databricks_project.dim_date", "model.dbt_databricks_project.dim_store"}
+09:17:53.520455 [info ]: Started building task graph
+09:17:53.520487 [info ]: Finished building task graph [  0.00s]
+09:17:53.520557 [info ]: Started rendering (3 nodes)
+09:17:53.520564 [info ]: Started model source.dim_store
+09:17:53.520569 [debug]: Started rendering model source.dim_store
+09:17:53.520580 [info ]: Started model source.dim_date
+09:17:53.520584 [debug]: Started rendering model source.dim_date
+09:17:53.520589 [info ]: Started model source.dim_customer
+09:17:53.520592 [debug]: Started rendering model source.dim_customer
+09:17:53.520599 [info ]: Finished loading project [  0.11s]
+09:17:53.521111 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_date at target/.lsp/compiled/models/staging/dim_date.sql
+09:17:53.521111 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_store at target/.lsp/compiled/models/staging/dim_store.sql
+09:17:53.521125 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_customer at target/.lsp/compiled/models/staging/dim_customer.sql
+09:17:53.521160 [debug]: Finished rendering [  0.00s] model source.dim_store [success]
+09:17:53.521168 [info ]: Started analyzing (3 nodes)
+09:17:53.521171 [debug]: Started analyzing model source.dim_store
+09:17:53.521177 [debug]: Finished rendering [  0.00s] model source.dim_date [success]
+09:17:53.521181 [debug]: Started analyzing model source.dim_date
+09:17:53.521186 [debug]: Finished rendering [  0.00s] model source.dim_customer [success]
+09:17:53.521188 [info ]: Finished rendering [  0.00s] (3 nodes, 0 skipped, 0 errors)
+09:17:53.521191 [debug]: Started analyzing model source.dim_customer
+09:17:53.521342 [info ]:  Succeeded [-------] model source.dim_customer (table)
+09:17:53.521350 [debug]: Finished analyzing [  0.00s] model source.dim_customer [success]
+09:17:53.521355 [info ]:  Succeeded [-------] model source.dim_store (table)
+09:17:53.521358 [debug]: Finished analyzing [  0.00s] model source.dim_store [success]
+09:17:53.521362 [info ]:  Succeeded [-------] model source.dim_date (table)
+09:17:53.521366 [debug]: Finished analyzing [  0.00s] model source.dim_date [success]
+09:17:53.521368 [info ]: Finished analyzing [  0.00s] (3 nodes, 0 skipped, 0 errors)
+09:17:53.522726 [info ]: Started scheduling
+09:17:53.522743 [info ]: Finished scheduling [  0.00s]
+09:17:53.523395 [info ]: Cached model count updated: 3 models (accurate)
+10:28:26.388683 [info ]: Loading profiles.yml
+10:28:26.427274 [info ]: Started loading project
+10:28:26.428094 [info ]: Loading profiles.yml
+10:28:26.437899 [info ]: Started loading project
+10:28:26.437990 [info ]: Loading profiles.yml
+10:28:26.438172 [info ]: Finished loading project [  0.01s]
+10:28:26.537908 [debug]:    Started loading packages
+10:28:26.538708 [debug]:     Loaded [  0.00s] packages
+10:28:26.545996 [info ]: Started parsing
+10:28:26.572834 [info ]: Finished loading project [  0.13s]
+10:28:26.587972 [debug]: Finished parsing models/source.yml [  0.01s]
+10:28:26.604688 [debug]: Finished parsing models/staging/dim_customer.sql [  0.01s]
+10:28:26.605009 [debug]: Finished parsing models/staging/dim_date.sql [  0.00s]
+10:28:26.608785 [debug]: Finished parsing models/staging/dim_store.sql [  0.00s]
+10:28:26.613339 [info ]: Finished parsing [  0.07s]
+10:28:26.613949 [info ]: Cached model count updated: 3 models (estimate)
+10:28:26.614078 [info ]: Cached model count updated: 3 models (accurate)
+10:28:26.615482 [info ]: Started scheduling
+10:28:26.616732 [info ]: Finished scheduling [  0.00s]
+10:28:26.617245 [debug]: Compilation - 0 nodes selected: {}
+10:28:26.617449 [warn ]: dbt1600: The selection criterion '' does not match any enabled nodes
+10:28:26.617467 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+10:28:26.617471 [info ]: Started scheduling
+10:28:26.618194 [info ]: Finished scheduling [  0.00s]
+10:28:26.624574 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "dbt", schema: "source", table: "dim_store" }) and interval: None
+10:28:26.624593 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "dbt", schema: "source", table: "dim_customer" }) and interval: None
+10:28:26.624597 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "dbt", schema: "source", table: "dim_date" }) and interval: None
+10:28:26.738192 [info ]: Started building task graph
+10:28:26.739293 [info ]: Finished building task graph [  0.00s]
+10:28:26.748862 [info ]: Started scheduling
+10:28:26.748884 [info ]: Finished scheduling [  0.00s]
+10:28:26.752151 [info ]: Cached model count updated: 3 models (accurate)
+10:28:27.931260 [info ]: Started loading project
+10:28:27.931827 [info ]: Loading profiles.yml
+10:28:27.961675 [info ]: Cached model count updated: 3 models (estimate)
+10:28:27.961710 [info ]: Cached model count updated: 3 models (accurate)
+10:28:27.961747 [info ]: Started scheduling
+10:28:27.961821 [info ]: Finished scheduling [  0.00s]
+10:28:27.962035 [debug]: Compilation - 3 nodes selected: {"model.dbt_databricks_project.dim_customer", "model.dbt_databricks_project.dim_date", "model.dbt_databricks_project.dim_store"}
+10:28:28.061153 [info ]: Started building task graph
+10:28:28.063759 [info ]: Finished building task graph [  0.00s]
+10:28:28.066628 [info ]: Started rendering (3 nodes)
+10:28:28.067518 [info ]: Started model source_bronze.dim_store
+10:28:28.067781 [debug]: Started rendering model source_bronze.dim_store
+10:28:28.068058 [info ]: Started model source_bronze.dim_date
+10:28:28.068065 [debug]: Started rendering model source_bronze.dim_date
+10:28:28.068069 [info ]: Finished loading project [  0.14s]
+10:28:28.068571 [info ]: Started model source_bronze.dim_customer
+10:28:28.068575 [debug]: Started rendering model source_bronze.dim_customer
+10:28:28.071292 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_store at target/.lsp/compiled/models/staging/dim_store.sql
+10:28:28.071287 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_date at target/.lsp/compiled/models/staging/dim_date.sql
+10:28:28.071290 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_customer at target/.lsp/compiled/models/staging/dim_customer.sql
+10:28:28.072542 [debug]: Finished rendering [  0.00s] model source_bronze.dim_store [success]
+10:28:28.072864 [info ]: Started analyzing (3 nodes)
+10:28:28.072868 [debug]: Started analyzing model source_bronze.dim_store
+10:28:28.072993 [debug]: Finished rendering [  0.00s] model source_bronze.dim_customer [success]
+10:28:28.072999 [debug]: Started analyzing model source_bronze.dim_customer
+10:28:28.073006 [debug]: Finished rendering [  0.00s] model source_bronze.dim_date [success]
+10:28:28.073008 [info ]: Finished rendering [  0.01s] (3 nodes, 0 skipped, 0 errors)
+10:28:28.073011 [debug]: Started analyzing model source_bronze.dim_date
+10:28:28.083061 [info ]:  Succeeded [  0.01s] model source_bronze.dim_store (table)
+10:28:28.083078 [debug]: Finished analyzing [  0.01s] model source_bronze.dim_store [success]
+10:28:28.083082 [info ]:  Succeeded [  0.01s] model source_bronze.dim_date (table)
+10:28:28.083086 [debug]: Finished analyzing [  0.01s] model source_bronze.dim_date [success]
+10:28:28.083089 [info ]:  Succeeded [  0.01s] model source_bronze.dim_customer (table)
+10:28:28.083094 [debug]: Finished analyzing [  0.01s] model source_bronze.dim_customer [success]
+10:28:28.083096 [info ]: Finished analyzing [  0.01s] (3 nodes, 0 skipped, 0 errors)
+10:28:28.085465 [info ]: Started scheduling
+10:28:28.085484 [info ]: Finished scheduling [  0.00s]
+10:28:28.086085 [info ]: Cached model count updated: 3 models (accurate)

@@ -1,3 +1,9 @@
 .env
 logs/dbt.log
 dbt_internal_packages/
+dbt-lsp.log
+dbt_packages/
+dbt_modules/
+dbt_modules.yml
+dbt_packages.yml
+dbt_modules.json
