@@ -7,7 +7,7 @@ sources:
     tables:
       - name: dim_customer
       - name: dim_product
-      - name: dim_storeß
+      - name: dim_store
       - name: dim_date
       - name: fact_sales
       - name: fact_returns

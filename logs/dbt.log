@@ -356,3 +356,35 @@ Summary: 1 total | 1 success
 08:41:30.525817 [info ]: 
 ==================== Execution Summary =====================
 Finished 'init' successfully [24.3s]
+[0m14:40:20.063727 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1045c39e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10701e540>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10701e2a0>]}
+
+
+============================== 14:40:20.066018 | 52802e6f-8d9e-42a6-beeb-83d1270f18af ==============================
+[0m14:40:20.066018 [info ] [MainThread]: Running with dbt=1.11.8
+[0m14:40:20.066288 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'partial_parse': 'True', 'profiles_dir': '/Users/anjalisingh/dbt-databricks-project', 'invocation_command': 'dbt ls --resource-type source', 'quiet': 'False', 'debug': 'False', 'fail_fast': 'False', 'no_print': 'None', 'log_path': '/Users/anjalisingh/dbt-databricks-project/logs', 'empty': 'None', 'target_path': 'None', 'write_json': 'True', 'cache_selected_only': 'False', 'use_experimental_parser': 'False', 'log_format': 'default', 'printer_width': '80', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'log_cache_events': 'False', 'warn_error': 'None', 'version_check': 'True', 'indirect_selection': 'eager', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True'}
+[0m14:40:20.069025 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DBT_HOST'
+[0m14:40:20.098974 [debug] [MainThread]: Resource report: {"command_name": "list", "command_success": false, "command_wall_clock_time": 0.06996283, "process_in_blocks": "0", "process_kernel_time": 0.136736, "process_mem_max_rss": "113328128", "process_out_blocks": "0", "process_user_time": 0.560323}
+[0m14:40:20.099205 [debug] [MainThread]: Command `dbt ls` failed at 14:40:20.099161 after 0.07 seconds
+[0m14:40:20.099350 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1063039e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106e5bda0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106cf02f0>]}
+[0m14:40:20.099492 [debug] [MainThread]: Flushing usage events
+[0m14:40:21.454020 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:40:34.222297 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1088d1160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108e85df0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108e85b50>]}
+
+
+============================== 14:40:34.223844 | f51166c6-54f4-4b9a-97fe-ddb40cdbd7ff ==============================
+[0m14:40:34.223844 [info ] [MainThread]: Running with dbt=1.11.8
+[0m14:40:34.224084 [debug] [MainThread]: running dbt with arguments {'fail_fast': 'False', 'use_experimental_parser': 'False', 'debug': 'False', 'log_format': 'default', 'quiet': 'False', 'invocation_command': 'dbt debug', 'introspect': 'True', 'write_json': 'True', 'log_path': '/Users/anjalisingh/dbt-databricks-project/logs', 'indirect_selection': 'eager', 'cache_selected_only': 'False', 'warn_error': 'None', 'profiles_dir': '/Users/anjalisingh/dbt-databricks-project', 'no_print': 'None', 'target_path': 'None', 'log_cache_events': 'False', 'version_check': 'True', 'send_anonymous_usage_stats': 'True', 'partial_parse': 'True', 'static_parser': 'True', 'use_colors': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'empty': 'None', 'printer_width': '80'}
+[0m14:40:34.233856 [info ] [MainThread]: dbt version: 1.11.8
+[0m14:40:34.234004 [info ] [MainThread]: python version: 3.12.0
+[0m14:40:34.234109 [info ] [MainThread]: python path: /Users/anjalisingh/dbt-env/bin/python3.12
+[0m14:40:34.234202 [info ] [MainThread]: os info: macOS-26.3.1-arm64-arm-64bit
+[0m14:40:34.236078 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DBT_HOST'
+[0m14:40:34.237068 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.03915146, "process_in_blocks": "0", "process_kernel_time": 0.075808, "process_mem_max_rss": "113065984", "process_out_blocks": "0", "process_user_time": 0.490338}
+[0m14:40:34.237241 [debug] [MainThread]: Command `dbt debug` failed at 14:40:34.237204 after 0.04 seconds
+[0m14:40:34.237357 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108e85e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108e1a6c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108ce64b0>]}
+[0m14:40:34.237475 [debug] [MainThread]: Flushing usage events
+[0m14:40:35.290325 [debug] [MainThread]: An error was encountered while trying to flush usage events

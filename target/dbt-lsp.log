@@ -116,3 +116,1298 @@
 06:38:35.544436 [info ]: Started scheduling
 06:38:35.544456 [info ]: Finished scheduling [  0.00s]
 06:38:35.545051 [info ]: Cached model count updated: 1 models (accurate)
+09:02:09.220426 [info ]: Started loading project
+09:02:09.243367 [info ]: Loading profiles.yml
+09:02:09.278826 [info ]: Started loading project
+09:02:09.278956 [info ]: Loading profiles.yml
+09:02:09.279222 [info ]: Finished loading project [  0.06s]
+09:02:09.386723 [debug]:    Started loading packages
+09:02:09.388019 [debug]:     Loaded [  0.00s] packages
+09:02:09.395352 [info ]: Started parsing
+09:02:09.422323 [info ]: Finished loading project [  0.14s]
+09:02:09.436539 [debug]: Finished parsing models/source.yml [  0.01s]
+09:02:09.453377 [debug]: Finished parsing models/staging/dim_customer.sql [  0.01s]
+09:02:09.456864 [debug]: Finished parsing models/staging/dim_store.sql [  0.00s]
+09:02:09.461377 [info ]: Finished parsing [  0.07s]
+09:02:09.461911 [info ]: Cached model count updated: 2 models (estimate)
+09:02:09.462150 [info ]: Cached model count updated: 2 models (accurate)
+09:02:09.463578 [info ]: Started scheduling
+09:02:09.464814 [info ]: Finished scheduling [  0.00s]
+09:02:09.465324 [debug]: Compilation - 0 nodes selected: {}
+09:02:09.465523 [warn ]: dbt1600: The selection criterion '' does not match any enabled nodes
+09:02:09.465537 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:02:09.465541 [info ]: Started scheduling
+09:02:09.466244 [info ]: Finished scheduling [  0.00s]
+09:02:09.472322 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "dbt", schema: "source", table: "dim_customer" }) and interval: None
+09:02:09.586387 [info ]: Started building task graph
+09:02:09.587293 [info ]: Finished building task graph [  0.00s]
+09:02:09.596920 [info ]: Started scheduling
+09:02:09.596949 [info ]: Finished scheduling [  0.00s]
+09:02:09.600293 [info ]: Cached model count updated: 2 models (accurate)
+09:02:10.783134 [info ]: Started loading project
+09:02:10.783681 [info ]: Loading profiles.yml
+09:02:10.813483 [info ]: Cached model count updated: 2 models (estimate)
+09:02:10.813523 [info ]: Cached model count updated: 2 models (accurate)
+09:02:10.813556 [info ]: Started scheduling
+09:02:10.813619 [info ]: Finished scheduling [  0.00s]
+09:02:10.813854 [debug]: Compilation - 1 nodes selected: {"model.dbt_databricks_project.dim_customer"}
+09:02:10.918566 [info ]: Started building task graph
+09:02:10.920983 [info ]: Finished building task graph [  0.00s]
+09:02:10.923841 [info ]: Started rendering (1 nodes)
+09:02:10.924688 [info ]: Started model source.dim_customer
+09:02:10.925017 [debug]: Started rendering model source.dim_customer
+09:02:10.925348 [info ]: Finished loading project [  0.14s]
+09:02:10.928445 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_customer at target/.lsp/compiled/models/staging/dim_customer.sql
+09:02:10.929721 [debug]: Finished rendering [  0.00s] model source.dim_customer [success]
+09:02:10.929728 [info ]: Finished rendering [  0.01s] (1 nodes, 0 skipped, 0 errors)
+09:02:10.930071 [info ]: Started analyzing (1 nodes)
+09:02:10.930075 [debug]: Started analyzing model source.dim_customer
+09:02:10.944404 [info ]:  Succeeded [  0.02s] model source.dim_customer (table)
+09:02:10.944425 [debug]: Finished analyzing [  0.01s] model source.dim_customer [success]
+09:02:10.944428 [info ]: Finished analyzing [  0.01s] (1 nodes, 0 skipped, 0 errors)
+09:02:10.946951 [info ]: Started scheduling
+09:02:10.946969 [info ]: Finished scheduling [  0.00s]
+09:02:10.947565 [info ]: Cached model count updated: 2 models (accurate)
+09:02:11.108164 [info ]: Waiting for lease on 'target' directory
+09:02:11.336377 [info ]: Started loading project
+09:02:11.337185 [info ]: Loading profiles.yml
+09:02:11.358463 [info ]: Cached model count updated: 2 models (estimate)
+09:02:11.358502 [info ]: Cached model count updated: 2 models (accurate)
+09:02:11.358782 [info ]: Started scheduling
+09:02:11.359859 [info ]: Finished scheduling [  0.00s]
+09:02:11.359874 [debug]: Compilation - 0 nodes selected: {}
+09:02:11.359891 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_store' does not match any enabled nodes
+09:02:11.359899 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:02:11.463727 [info ]: Started building task graph
+09:02:11.463747 [info ]: Finished building task graph [  0.00s]
+09:02:11.465201 [info ]: Started scheduling
+09:02:11.465221 [info ]: Finished scheduling [  0.00s]
+09:02:11.465365 [info ]: Finished loading project [  0.13s]
+09:02:11.465489 [info ]: Cached model count updated: 2 models (accurate)
+09:02:11.466707 [info ]: Waiting for lease on 'target' directory
+09:02:11.876326 [info ]: Started loading project
+09:02:11.876499 [info ]: Loading profiles.yml
+09:02:11.886645 [info ]: Cached model count updated: 2 models (estimate)
+09:02:11.886665 [info ]: Cached model count updated: 2 models (accurate)
+09:02:11.886685 [info ]: Started scheduling
+09:02:11.886716 [info ]: Finished scheduling [  0.00s]
+09:02:11.886726 [debug]: Compilation - 0 nodes selected: {}
+09:02:11.886735 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_store' does not match any enabled nodes
+09:02:11.886742 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:02:11.974208 [info ]: Started building task graph
+09:02:11.974226 [info ]: Finished building task graph [  0.00s]
+09:02:11.975669 [info ]: Started scheduling
+09:02:11.975692 [info ]: Finished scheduling [  0.00s]
+09:02:11.975844 [info ]: Finished loading project [  0.10s]
+09:02:11.975957 [info ]: Cached model count updated: 2 models (accurate)
+09:02:12.756962 [info ]: Started loading project
+09:02:12.757274 [info ]: Loading profiles.yml
+09:02:12.772121 [info ]: Cached model count updated: 2 models (estimate)
+09:02:12.772137 [info ]: Cached model count updated: 2 models (accurate)
+09:02:12.772154 [info ]: Started scheduling
+09:02:12.772182 [info ]: Finished scheduling [  0.00s]
+09:02:12.772190 [debug]: Compilation - 0 nodes selected: {}
+09:02:12.772199 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_store' does not match any enabled nodes
+09:02:12.772204 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:02:12.867770 [info ]: Started building task graph
+09:02:12.867788 [info ]: Finished building task graph [  0.00s]
+09:02:12.869251 [info ]: Started scheduling
+09:02:12.869271 [info ]: Finished scheduling [  0.00s]
+09:02:12.869423 [info ]: Finished loading project [  0.11s]
+09:02:12.869532 [info ]: Cached model count updated: 2 models (accurate)
+09:02:14.042701 [info ]: Started loading project
+09:02:14.043220 [info ]: Loading profiles.yml
+09:02:14.072038 [info ]: Cached model count updated: 2 models (estimate)
+09:02:14.072079 [info ]: Cached model count updated: 2 models (accurate)
+09:02:14.072117 [info ]: Started scheduling
+09:02:14.072182 [info ]: Finished scheduling [  0.00s]
+09:02:14.072198 [debug]: Compilation - 0 nodes selected: {}
+09:02:14.072215 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_store+' does not match any enabled nodes
+09:02:14.072227 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:02:14.171234 [info ]: Started building task graph
+09:02:14.171249 [info ]: Finished building task graph [  0.00s]
+09:02:14.172602 [info ]: Started scheduling
+09:02:14.172620 [info ]: Finished scheduling [  0.00s]
+09:02:14.172765 [info ]: Finished loading project [  0.13s]
+09:02:14.173289 [info ]: Cached model count updated: 2 models (accurate)
+09:02:15.357473 [info ]: Started loading project
+09:02:15.358009 [info ]: Loading profiles.yml
+09:02:15.384241 [info ]: Cached model count updated: 2 models (estimate)
+09:02:15.384281 [info ]: Cached model count updated: 2 models (accurate)
+09:02:15.384311 [info ]: Started scheduling
+09:02:15.384371 [info ]: Finished scheduling [  0.00s]
+09:02:15.384389 [debug]: Compilation - 1 nodes selected: {"model.dbt_databricks_project.dim_customer"}
+09:02:15.482180 [info ]: Started building task graph
+09:02:15.482208 [info ]: Finished building task graph [  0.00s]
+09:02:15.482266 [info ]: Started rendering (1 nodes)
+09:02:15.482274 [info ]: Started model source.dim_customer
+09:02:15.482279 [debug]: Started rendering model source.dim_customer
+09:02:15.482304 [info ]: Finished loading project [  0.12s]
+09:02:15.483272 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_customer at target/.lsp/compiled/models/staging/dim_customer.sql
+09:02:15.483312 [debug]: Finished rendering [  0.00s] model source.dim_customer [success]
+09:02:15.483318 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+09:02:15.483326 [info ]: Started analyzing (1 nodes)
+09:02:15.483329 [debug]: Started analyzing model source.dim_customer
+09:02:15.483495 [info ]:  Succeeded [  0.00s] model source.dim_customer (table)
+09:02:15.483505 [debug]: Finished analyzing [  0.00s] model source.dim_customer [success]
+09:02:15.483507 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+09:02:15.484888 [info ]: Started scheduling
+09:02:15.484904 [info ]: Finished scheduling [  0.00s]
+09:02:15.485475 [info ]: Cached model count updated: 2 models (accurate)
+09:02:19.466678 [info ]: Started loading project
+09:02:19.466926 [info ]: Loading profiles.yml
+09:02:19.481078 [info ]: Cached model count updated: 2 models (estimate)
+09:02:19.481093 [info ]: Cached model count updated: 2 models (accurate)
+09:02:19.481111 [info ]: Started scheduling
+09:02:19.481141 [info ]: Finished scheduling [  0.00s]
+09:02:19.481151 [debug]: Compilation - 0 nodes selected: {}
+09:02:19.481160 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_store' does not match any enabled nodes
+09:02:19.481166 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:02:19.574088 [info ]: Started building task graph
+09:02:19.574105 [info ]: Finished building task graph [  0.00s]
+09:02:19.575527 [info ]: Started scheduling
+09:02:19.575550 [info ]: Finished scheduling [  0.00s]
+09:02:19.575753 [info ]: Finished loading project [  0.11s]
+09:02:19.575891 [info ]: Cached model count updated: 2 models (accurate)
+09:02:20.751121 [info ]: Started loading project
+09:02:20.751486 [info ]: Loading profiles.yml
+09:02:20.769337 [info ]: Cached model count updated: 2 models (estimate)
+09:02:20.769356 [info ]: Cached model count updated: 2 models (accurate)
+09:02:20.769376 [info ]: Started scheduling
+09:02:20.769409 [info ]: Finished scheduling [  0.00s]
+09:02:20.769418 [debug]: Compilation - 0 nodes selected: {}
+09:02:20.769429 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_store+' does not match any enabled nodes
+09:02:20.769436 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:02:20.864668 [info ]: Started building task graph
+09:02:20.864685 [info ]: Finished building task graph [  0.00s]
+09:02:20.866060 [info ]: Started scheduling
+09:02:20.866081 [info ]: Finished scheduling [  0.00s]
+09:02:20.866240 [info ]: Finished loading project [  0.12s]
+09:02:20.866762 [info ]: Cached model count updated: 2 models (accurate)
+09:02:22.050828 [info ]: Started loading project
+09:02:22.051387 [info ]: Loading profiles.yml
+09:02:22.080335 [info ]: Cached model count updated: 2 models (estimate)
+09:02:22.080378 [info ]: Cached model count updated: 2 models (accurate)
+09:02:22.080413 [info ]: Started scheduling
+09:02:22.080478 [info ]: Finished scheduling [  0.00s]
+09:02:22.080495 [debug]: Compilation - 1 nodes selected: {"model.dbt_databricks_project.dim_customer"}
+09:02:22.180746 [info ]: Started building task graph
+09:02:22.180775 [info ]: Finished building task graph [  0.00s]
+09:02:22.180835 [info ]: Started rendering (1 nodes)
+09:02:22.180842 [info ]: Started model source.dim_customer
+09:02:22.180847 [debug]: Started rendering model source.dim_customer
+09:02:22.180871 [info ]: Finished loading project [  0.13s]
+09:02:22.181010 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_customer at target/.lsp/compiled/models/staging/dim_customer.sql
+09:02:22.181050 [debug]: Finished rendering [  0.00s] model source.dim_customer [success]
+09:02:22.181056 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+09:02:22.181063 [info ]: Started analyzing (1 nodes)
+09:02:22.181067 [debug]: Started analyzing model source.dim_customer
+09:02:22.181225 [info ]:  Succeeded [-------] model source.dim_customer (table)
+09:02:22.181233 [debug]: Finished analyzing [  0.00s] model source.dim_customer [success]
+09:02:22.181235 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+09:02:22.182686 [info ]: Started scheduling
+09:02:22.182707 [info ]: Finished scheduling [  0.00s]
+09:02:22.183341 [info ]: Cached model count updated: 2 models (accurate)
+09:02:23.450141 [info ]: Started loading project
+09:02:23.450766 [info ]: Loading profiles.yml
+09:02:23.474446 [info ]: Cached model count updated: 2 models (estimate)
+09:02:23.474468 [info ]: Cached model count updated: 2 models (accurate)
+09:02:23.474489 [info ]: Started scheduling
+09:02:23.474523 [info ]: Finished scheduling [  0.00s]
+09:02:23.474533 [debug]: Compilation - 0 nodes selected: {}
+09:02:23.474543 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_store' does not match any enabled nodes
+09:02:23.474550 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:02:23.572455 [info ]: Started building task graph
+09:02:23.572472 [info ]: Finished building task graph [  0.00s]
+09:02:23.573871 [info ]: Started scheduling
+09:02:23.573891 [info ]: Finished scheduling [  0.00s]
+09:02:23.574035 [info ]: Finished loading project [  0.12s]
+09:02:23.574163 [info ]: Cached model count updated: 2 models (accurate)
+09:02:24.753858 [info ]: Started loading project
+09:02:24.754377 [info ]: Loading profiles.yml
+09:02:24.781797 [info ]: Cached model count updated: 2 models (estimate)
+09:02:24.781818 [info ]: Cached model count updated: 2 models (accurate)
+09:02:24.781845 [info ]: Started scheduling
+09:02:24.781889 [info ]: Finished scheduling [  0.00s]
+09:02:24.781902 [debug]: Compilation - 0 nodes selected: {}
+09:02:24.781916 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_store+' does not match any enabled nodes
+09:02:24.781925 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:02:24.882287 [info ]: Started building task graph
+09:02:24.882305 [info ]: Finished building task graph [  0.00s]
+09:02:24.883711 [info ]: Started scheduling
+09:02:24.883733 [info ]: Finished scheduling [  0.00s]
+09:02:24.883877 [info ]: Finished loading project [  0.13s]
+09:02:24.884396 [info ]: Cached model count updated: 2 models (accurate)
+09:02:26.065142 [info ]: Started loading project
+09:02:26.065617 [info ]: Loading profiles.yml
+09:02:26.091827 [info ]: Cached model count updated: 2 models (estimate)
+09:02:26.091870 [info ]: Cached model count updated: 2 models (accurate)
+09:02:26.091903 [info ]: Started scheduling
+09:02:26.091965 [info ]: Finished scheduling [  0.00s]
+09:02:26.091981 [debug]: Compilation - 1 nodes selected: {"model.dbt_databricks_project.dim_customer"}
+09:02:26.188834 [info ]: Started building task graph
+09:02:26.188862 [info ]: Finished building task graph [  0.00s]
+09:02:26.188921 [info ]: Started rendering (1 nodes)
+09:02:26.188931 [info ]: Started model source.dim_customer
+09:02:26.188937 [debug]: Started rendering model source.dim_customer
+09:02:26.188960 [info ]: Finished loading project [  0.12s]
+09:02:26.189109 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_customer at target/.lsp/compiled/models/staging/dim_customer.sql
+09:02:26.189141 [debug]: Finished rendering [  0.00s] model source.dim_customer [success]
+09:02:26.189146 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+09:02:26.189153 [info ]: Started analyzing (1 nodes)
+09:02:26.189157 [debug]: Started analyzing model source.dim_customer
+09:02:26.189305 [info ]:  Succeeded [-------] model source.dim_customer (table)
+09:02:26.189312 [debug]: Finished analyzing [  0.00s] model source.dim_customer [success]
+09:02:26.189314 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+09:02:26.190654 [info ]: Started scheduling
+09:02:26.190672 [info ]: Finished scheduling [  0.00s]
+09:02:26.191268 [info ]: Cached model count updated: 2 models (accurate)
+09:02:27.948782 [info ]: Started loading project
+09:02:27.949013 [info ]: Loading profiles.yml
+09:02:27.962859 [info ]: Cached model count updated: 2 models (estimate)
+09:02:27.962880 [info ]: Cached model count updated: 2 models (accurate)
+09:02:27.962897 [info ]: Started scheduling
+09:02:27.962927 [info ]: Finished scheduling [  0.00s]
+09:02:27.962935 [debug]: Compilation - 0 nodes selected: {}
+09:02:27.962944 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_store' does not match any enabled nodes
+09:02:27.962950 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:02:28.054805 [info ]: Started building task graph
+09:02:28.054822 [info ]: Finished building task graph [  0.00s]
+09:02:28.056220 [info ]: Started scheduling
+09:02:28.056239 [info ]: Finished scheduling [  0.00s]
+09:02:28.056385 [info ]: Finished loading project [  0.11s]
+09:02:28.056515 [info ]: Cached model count updated: 2 models (accurate)
+09:02:29.232402 [info ]: Started loading project
+09:02:29.232926 [info ]: Loading profiles.yml
+09:02:29.259290 [info ]: Cached model count updated: 2 models (estimate)
+09:02:29.259332 [info ]: Cached model count updated: 2 models (accurate)
+09:02:29.259371 [info ]: Started scheduling
+09:02:29.259436 [info ]: Finished scheduling [  0.00s]
+09:02:29.259453 [debug]: Compilation - 0 nodes selected: {}
+09:02:29.259472 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_store+' does not match any enabled nodes
+09:02:29.259483 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:02:29.361006 [info ]: Started building task graph
+09:02:29.361025 [info ]: Finished building task graph [  0.00s]
+09:02:29.362435 [info ]: Started scheduling
+09:02:29.362455 [info ]: Finished scheduling [  0.00s]
+09:02:29.362603 [info ]: Finished loading project [  0.13s]
+09:02:29.363130 [info ]: Cached model count updated: 2 models (accurate)
+09:02:30.543782 [info ]: Started loading project
+09:02:30.544348 [info ]: Loading profiles.yml
+09:02:30.573643 [info ]: Cached model count updated: 2 models (estimate)
+09:02:30.573689 [info ]: Cached model count updated: 2 models (accurate)
+09:02:30.573724 [info ]: Started scheduling
+09:02:30.573788 [info ]: Finished scheduling [  0.00s]
+09:02:30.573804 [debug]: Compilation - 1 nodes selected: {"model.dbt_databricks_project.dim_customer"}
+09:02:30.674401 [info ]: Started building task graph
+09:02:30.674430 [info ]: Finished building task graph [  0.00s]
+09:02:30.674492 [info ]: Started rendering (1 nodes)
+09:02:30.674502 [info ]: Started model source.dim_customer
+09:02:30.674507 [debug]: Started rendering model source.dim_customer
+09:02:30.674536 [info ]: Finished loading project [  0.13s]
+09:02:30.674676 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_customer at target/.lsp/compiled/models/staging/dim_customer.sql
+09:02:30.674709 [debug]: Finished rendering [  0.00s] model source.dim_customer [success]
+09:02:30.674715 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+09:02:30.674721 [info ]: Started analyzing (1 nodes)
+09:02:30.674723 [debug]: Started analyzing model source.dim_customer
+09:02:30.674875 [info ]:  Succeeded [-------] model source.dim_customer (table)
+09:02:30.674885 [debug]: Finished analyzing [  0.00s] model source.dim_customer [success]
+09:02:30.674887 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+09:02:30.676296 [info ]: Started scheduling
+09:02:30.676313 [info ]: Finished scheduling [  0.00s]
+09:02:30.676930 [info ]: Cached model count updated: 2 models (accurate)
+09:02:43.621535 [info ]: Started loading project
+09:02:43.621777 [info ]: Loading profiles.yml
+09:02:43.636110 [info ]: Cached model count updated: 2 models (estimate)
+09:02:43.636136 [info ]: Cached model count updated: 2 models (accurate)
+09:02:43.636155 [info ]: Started scheduling
+09:02:43.636185 [info ]: Finished scheduling [  0.00s]
+09:02:43.636193 [debug]: Compilation - 0 nodes selected: {}
+09:02:43.636202 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_store' does not match any enabled nodes
+09:02:43.636209 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:02:43.728820 [info ]: Started building task graph
+09:02:43.728840 [info ]: Finished building task graph [  0.00s]
+09:02:43.730256 [info ]: Started scheduling
+09:02:43.730275 [info ]: Finished scheduling [  0.00s]
+09:02:43.730421 [info ]: Finished loading project [  0.11s]
+09:02:43.730549 [info ]: Cached model count updated: 2 models (accurate)
+09:02:44.817429 [info ]: Started loading project
+09:02:44.817826 [info ]: Loading profiles.yml
+09:02:44.834574 [info ]: Cached model count updated: 2 models (estimate)
+09:02:44.834598 [info ]: Cached model count updated: 2 models (accurate)
+09:02:44.834619 [info ]: Started scheduling
+09:02:44.834652 [info ]: Finished scheduling [  0.00s]
+09:02:44.834661 [debug]: Compilation - 0 nodes selected: {}
+09:02:44.834671 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_store' does not match any enabled nodes
+09:02:44.834678 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:02:44.926463 [info ]: Started building task graph
+09:02:44.926483 [info ]: Finished building task graph [  0.00s]
+09:02:44.927863 [info ]: Started scheduling
+09:02:44.927882 [info ]: Finished scheduling [  0.00s]
+09:02:44.928021 [info ]: Finished loading project [  0.11s]
+09:02:44.928142 [info ]: Cached model count updated: 2 models (accurate)
+09:02:45.011970 [info ]: Waiting for lease on 'target' directory
+09:02:45.323955 [info ]: Started loading project
+09:02:45.324520 [info ]: Loading profiles.yml
+09:02:45.348510 [info ]: Cached model count updated: 2 models (estimate)
+09:02:45.348546 [info ]: Cached model count updated: 2 models (accurate)
+09:02:45.348582 [info ]: Started scheduling
+09:02:45.348647 [info ]: Finished scheduling [  0.00s]
+09:02:45.348664 [debug]: Compilation - 0 nodes selected: {}
+09:02:45.348682 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_store' does not match any enabled nodes
+09:02:45.348693 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:02:45.445913 [info ]: Started building task graph
+09:02:45.445932 [info ]: Finished building task graph [  0.00s]
+09:02:45.447315 [info ]: Started scheduling
+09:02:45.447335 [info ]: Finished scheduling [  0.00s]
+09:02:45.447480 [info ]: Finished loading project [  0.12s]
+09:02:45.447596 [info ]: Cached model count updated: 2 models (accurate)
+09:02:46.635146 [info ]: Started loading project
+09:02:46.635697 [info ]: Loading profiles.yml
+09:02:46.665040 [info ]: Cached model count updated: 2 models (estimate)
+09:02:46.665075 [info ]: Cached model count updated: 2 models (accurate)
+09:02:46.665110 [info ]: Started scheduling
+09:02:46.665175 [info ]: Finished scheduling [  0.00s]
+09:02:46.665190 [debug]: Compilation - 0 nodes selected: {}
+09:02:46.665206 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_store+' does not match any enabled nodes
+09:02:46.665218 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:02:46.768466 [info ]: Started building task graph
+09:02:46.768483 [info ]: Finished building task graph [  0.00s]
+09:02:46.771228 [info ]: Finished loading project [  0.14s]
+09:02:46.771353 [info ]: Cached model count updated: 2 models (accurate)
+09:02:46.771472 [info ]: Waiting for lease on 'target' directory
+09:02:47.187072 [info ]: Started loading project
+09:02:47.187559 [info ]: Loading profiles.yml
+09:02:47.214186 [info ]: Cached model count updated: 2 models (estimate)
+09:02:47.214227 [info ]: Cached model count updated: 2 models (accurate)
+09:02:47.214267 [info ]: Started scheduling
+09:02:47.214347 [info ]: Finished scheduling [  0.00s]
+09:02:47.214364 [debug]: Compilation - 0 nodes selected: {}
+09:02:47.214383 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_store' does not match any enabled nodes
+09:02:47.214399 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:02:47.317033 [info ]: Started building task graph
+09:02:47.317052 [info ]: Finished building task graph [  0.00s]
+09:02:47.318467 [info ]: Started scheduling
+09:02:47.318486 [info ]: Finished scheduling [  0.00s]
+09:02:47.318631 [info ]: Finished loading project [  0.13s]
+09:02:47.318759 [info ]: Cached model count updated: 2 models (accurate)
+09:02:48.498811 [info ]: Started loading project
+09:02:48.499349 [info ]: Loading profiles.yml
+09:02:48.527873 [info ]: Cached model count updated: 2 models (estimate)
+09:02:48.527911 [info ]: Cached model count updated: 2 models (accurate)
+09:02:48.527949 [info ]: Started scheduling
+09:02:48.528014 [info ]: Finished scheduling [  0.00s]
+09:02:48.528028 [debug]: Compilation - 0 nodes selected: {}
+09:02:48.528047 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_store+' does not match any enabled nodes
+09:02:48.528059 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:02:48.629106 [info ]: Started building task graph
+09:02:48.629124 [info ]: Finished building task graph [  0.00s]
+09:02:48.630481 [info ]: Started scheduling
+09:02:48.630501 [info ]: Finished scheduling [  0.00s]
+09:02:48.630645 [info ]: Finished loading project [  0.13s]
+09:02:48.631163 [info ]: Cached model count updated: 2 models (accurate)
+09:02:49.809405 [info ]: Started loading project
+09:02:49.809932 [info ]: Loading profiles.yml
+09:02:49.836582 [info ]: Cached model count updated: 2 models (estimate)
+09:02:49.836620 [info ]: Cached model count updated: 2 models (accurate)
+09:02:49.836661 [info ]: Started scheduling
+09:02:49.836803 [info ]: Finished scheduling [  0.00s]
+09:02:49.836830 [debug]: Compilation - 1 nodes selected: {"model.dbt_databricks_project.dim_customer"}
+09:02:49.936403 [info ]: Started building task graph
+09:02:49.936430 [info ]: Finished building task graph [  0.00s]
+09:02:49.936493 [info ]: Started rendering (1 nodes)
+09:02:49.936503 [info ]: Started model source.dim_customer
+09:02:49.936509 [debug]: Started rendering model source.dim_customer
+09:02:49.936532 [info ]: Finished loading project [  0.13s]
+09:02:49.936675 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_customer at target/.lsp/compiled/models/staging/dim_customer.sql
+09:02:49.936709 [debug]: Finished rendering [  0.00s] model source.dim_customer [success]
+09:02:49.936716 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+09:02:49.936724 [info ]: Started analyzing (1 nodes)
+09:02:49.936727 [debug]: Started analyzing model source.dim_customer
+09:02:49.936884 [info ]:  Succeeded [-------] model source.dim_customer (table)
+09:02:49.936892 [debug]: Finished analyzing [  0.00s] model source.dim_customer [success]
+09:02:49.936894 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+09:02:49.938265 [info ]: Started scheduling
+09:02:49.938282 [info ]: Finished scheduling [  0.00s]
+09:02:49.938909 [info ]: Cached model count updated: 2 models (accurate)
+09:04:05.140206 [info ]: Started loading project
+09:04:05.140501 [info ]: Loading profiles.yml
+09:04:05.146261 [info ]: Started parsing
+09:04:05.160627 [info ]: Finished loading project [  0.02s]
+09:04:05.160974 [debug]: Finished parsing models/source.yml [  0.00s]
+09:04:05.162326 [debug]: Finished parsing models/staging/dim_customer.sql [  0.00s]
+09:04:05.163279 [info ]: Finished parsing [  0.02s]
+09:04:05.163977 [info ]: Cached model count updated: 2 models (estimate)
+09:04:05.163984 [info ]: Cached model count updated: 2 models (accurate)
+09:04:05.163998 [info ]: Started scheduling
+09:04:05.164031 [info ]: Finished scheduling [  0.00s]
+09:04:05.164037 [debug]: Compilation - 0 nodes selected: {}
+09:04:05.164047 [warn ]: dbt1600: The selection criterion '+source:dbt_databricks_project.dbt.dim_date +source:dbt_databricks_project.dbt.dim_customer +source:dbt_databricks_project.dbt.dim_store +source:dbt_databricks_project.dbt.fact_returns +source:dbt_databricks_project.dbt.dim_product +source:dbt_databricks_project.dbt.fact_sales' does not match any enabled nodes
+09:04:05.164054 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:04:05.256111 [info ]: Started building task graph
+09:04:05.256128 [info ]: Finished building task graph [  0.00s]
+09:04:05.257528 [info ]: Started scheduling
+09:04:05.257568 [info ]: Finished scheduling [  0.00s]
+09:04:05.258875 [info ]: Cached model count updated: 2 models (accurate)
+09:04:06.438802 [info ]: Started loading project
+09:04:06.439201 [info ]: Loading profiles.yml
+09:04:06.457754 [info ]: Cached model count updated: 2 models (estimate)
+09:04:06.457777 [info ]: Cached model count updated: 2 models (accurate)
+09:04:06.457798 [info ]: Started scheduling
+09:04:06.457852 [info ]: Finished scheduling [  0.00s]
+09:04:06.457862 [debug]: Compilation - 1 nodes selected: {"model.dbt_databricks_project.dim_customer"}
+09:04:06.555118 [info ]: Started building task graph
+09:04:06.555154 [info ]: Finished building task graph [  0.00s]
+09:04:06.555241 [info ]: Started rendering (1 nodes)
+09:04:06.555251 [info ]: Started model source.dim_customer
+09:04:06.555257 [debug]: Started rendering model source.dim_customer
+09:04:06.555287 [info ]: Finished loading project [  0.12s]
+09:04:06.555439 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_customer at target/.lsp/compiled/models/staging/dim_customer.sql
+09:04:06.555480 [debug]: Finished rendering [  0.00s] model source.dim_customer [success]
+09:04:06.555487 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+09:04:06.555494 [info ]: Started analyzing (1 nodes)
+09:04:06.555497 [debug]: Started analyzing model source.dim_customer
+09:04:06.555664 [info ]:  Succeeded [-------] model source.dim_customer (table)
+09:04:06.555672 [debug]: Finished analyzing [  0.00s] model source.dim_customer [success]
+09:04:06.555675 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+09:04:06.557308 [info ]: Started scheduling
+09:04:06.557336 [info ]: Finished scheduling [  0.00s]
+09:04:06.558119 [info ]: Cached model count updated: 2 models (accurate)
+09:04:07.739850 [info ]: Started loading project
+09:04:07.740365 [info ]: Loading profiles.yml
+09:04:07.765535 [info ]: Cached model count updated: 2 models (estimate)
+09:04:07.765573 [info ]: Cached model count updated: 2 models (accurate)
+09:04:07.765610 [info ]: Started scheduling
+09:04:07.765671 [info ]: Finished scheduling [  0.00s]
+09:04:07.765687 [debug]: Compilation - 1 nodes selected: {"model.dbt_databricks_project.dim_customer"}
+09:04:07.864009 [info ]: Started building task graph
+09:04:07.864036 [info ]: Finished building task graph [  0.00s]
+09:04:07.864095 [info ]: Started rendering (1 nodes)
+09:04:07.864102 [info ]: Started model source.dim_customer
+09:04:07.864108 [debug]: Started rendering model source.dim_customer
+09:04:07.864131 [info ]: Finished loading project [  0.12s]
+09:04:07.864274 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_customer at target/.lsp/compiled/models/staging/dim_customer.sql
+09:04:07.864312 [debug]: Finished rendering [  0.00s] model source.dim_customer [success]
+09:04:07.864318 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+09:04:07.864325 [info ]: Started analyzing (1 nodes)
+09:04:07.864328 [debug]: Started analyzing model source.dim_customer
+09:04:07.864477 [info ]:  Succeeded [-------] model source.dim_customer (table)
+09:04:07.864486 [debug]: Finished analyzing [  0.00s] model source.dim_customer [success]
+09:04:07.864488 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+09:04:07.865859 [info ]: Started scheduling
+09:04:07.865877 [info ]: Finished scheduling [  0.00s]
+09:04:07.866499 [info ]: Cached model count updated: 2 models (accurate)
+09:04:08.493325 [info ]: Started loading project
+09:04:08.493783 [info ]: Loading profiles.yml
+09:04:08.497894 [info ]: Started parsing
+09:04:08.512820 [info ]: Finished loading project [  0.02s]
+09:04:08.514299 [debug]: Finished parsing models/staging/dim_store.sql [  0.00s]
+09:04:08.514847 [info ]: Finished parsing [  0.02s]
+09:04:08.515611 [info ]: Cached model count updated: 2 models (estimate)
+09:04:08.515621 [info ]: Cached model count updated: 2 models (accurate)
+09:04:08.515636 [info ]: Started scheduling
+09:04:08.515672 [info ]: Finished scheduling [  0.00s]
+09:04:08.515678 [debug]: Compilation - 1 nodes selected: {"model.dbt_databricks_project.dim_store"}
+09:04:08.607545 [info ]: Started building task graph
+09:04:08.607571 [info ]: Finished building task graph [  0.00s]
+09:04:08.607633 [info ]: Started rendering (1 nodes)
+09:04:08.607640 [info ]: Started model source.dim_store
+09:04:08.607646 [debug]: Started rendering model source.dim_store
+09:04:08.608085 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_store at target/.lsp/compiled/models/staging/dim_store.sql
+09:04:08.608134 [debug]: Finished rendering [  0.00s] model source.dim_store [success]
+09:04:08.608139 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+09:04:08.608146 [info ]: Started analyzing (1 nodes)
+09:04:08.608149 [debug]: Started analyzing model source.dim_store
+09:04:08.608306 [info ]:  Succeeded [-------] model source.dim_store (table)
+09:04:08.608313 [debug]: Finished analyzing [  0.00s] model source.dim_store [success]
+09:04:08.608315 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+09:04:08.609704 [info ]: Started scheduling
+09:04:08.609734 [info ]: Finished scheduling [  0.00s]
+09:04:08.610166 [info ]: Cached model count updated: 2 models (accurate)
+09:04:09.794430 [info ]: Started loading project
+09:04:09.794985 [info ]: Loading profiles.yml
+09:04:09.822657 [info ]: Cached model count updated: 2 models (estimate)
+09:04:09.822698 [info ]: Cached model count updated: 2 models (accurate)
+09:04:09.822735 [info ]: Started scheduling
+09:04:09.822814 [info ]: Finished scheduling [  0.00s]
+09:04:09.822836 [debug]: Compilation - 1 nodes selected: {"model.dbt_databricks_project.dim_store"}
+09:04:09.922521 [info ]: Started building task graph
+09:04:09.922546 [info ]: Finished building task graph [  0.00s]
+09:04:09.922605 [info ]: Started rendering (1 nodes)
+09:04:09.922613 [info ]: Started model source.dim_store
+09:04:09.922618 [debug]: Started rendering model source.dim_store
+09:04:09.922642 [info ]: Finished loading project [  0.13s]
+09:04:09.922759 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_store at target/.lsp/compiled/models/staging/dim_store.sql
+09:04:09.922800 [debug]: Finished rendering [  0.00s] model source.dim_store [success]
+09:04:09.922806 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+09:04:09.922813 [info ]: Started analyzing (1 nodes)
+09:04:09.922816 [debug]: Started analyzing model source.dim_store
+09:04:09.922962 [info ]:  Succeeded [-------] model source.dim_store (table)
+09:04:09.922971 [debug]: Finished analyzing [  0.00s] model source.dim_store [success]
+09:04:09.922972 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+09:04:09.924303 [info ]: Started scheduling
+09:04:09.924321 [info ]: Finished scheduling [  0.00s]
+09:04:09.924967 [info ]: Cached model count updated: 2 models (accurate)
+09:04:11.108800 [info ]: Started loading project
+09:04:11.109299 [info ]: Loading profiles.yml
+09:04:11.137451 [info ]: Cached model count updated: 2 models (estimate)
+09:04:11.137499 [info ]: Cached model count updated: 2 models (accurate)
+09:04:11.137533 [info ]: Started scheduling
+09:04:11.137601 [info ]: Finished scheduling [  0.00s]
+09:04:11.137618 [debug]: Compilation - 2 nodes selected: {"model.dbt_databricks_project.dim_customer", "model.dbt_databricks_project.dim_store"}
+09:04:11.237813 [info ]: Started building task graph
+09:04:11.237843 [info ]: Finished building task graph [  0.00s]
+09:04:11.237903 [info ]: Started rendering (2 nodes)
+09:04:11.237910 [info ]: Started model source.dim_store
+09:04:11.237916 [debug]: Started rendering model source.dim_store
+09:04:11.237927 [info ]: Started model source.dim_customer
+09:04:11.237930 [debug]: Started rendering model source.dim_customer
+09:04:11.237945 [info ]: Finished loading project [  0.13s]
+09:04:11.238068 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_customer at target/.lsp/compiled/models/staging/dim_customer.sql
+09:04:11.238067 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_store at target/.lsp/compiled/models/staging/dim_store.sql
+09:04:11.238106 [info ]: Started analyzing (2 nodes)
+09:04:11.238111 [debug]: Started analyzing model source.dim_customer
+09:04:11.238118 [debug]: Finished rendering [  0.00s] model source.dim_store [success]
+09:04:11.238123 [debug]: Started analyzing model source.dim_store
+09:04:11.238123 [debug]: Finished rendering [  0.00s] model source.dim_customer [success]
+09:04:11.238149 [info ]: Finished rendering [  0.00s] (2 nodes, 0 skipped, 0 errors)
+09:04:11.238288 [info ]:  Succeeded [-------] model source.dim_customer (table)
+09:04:11.238296 [debug]: Finished analyzing [  0.00s] model source.dim_customer [success]
+09:04:11.238302 [info ]:  Succeeded [-------] model source.dim_store (table)
+09:04:11.238308 [debug]: Finished analyzing [  0.00s] model source.dim_store [success]
+09:04:11.238311 [info ]: Finished analyzing [  0.00s] (2 nodes, 0 skipped, 0 errors)
+09:04:11.239682 [info ]: Started scheduling
+09:04:11.239701 [info ]: Finished scheduling [  0.00s]
+09:04:11.240330 [info ]: Cached model count updated: 2 models (accurate)
+09:04:30.763837 [info ]: Started loading project
+09:04:30.764313 [info ]: Loading profiles.yml
+09:04:30.766992 [info ]: Started loading project
+09:04:30.767184 [info ]: Loading profiles.yml
+09:04:30.767216 [info ]: Finished loading project [  0.00s]
+09:04:30.876618 [debug]:    Started loading packages
+09:04:30.877352 [debug]:     Loaded [  0.00s] packages
+09:04:30.877788 [info ]: Started parsing
+09:04:30.890340 [info ]: Finished loading project [  0.12s]
+09:04:30.890626 [debug]: Finished parsing models/source.yml [  0.00s]
+09:04:30.891360 [debug]: Finished parsing models/staging/dim_customer.sql [  0.00s]
+09:04:30.892126 [debug]: Finished parsing models/staging/dim_store.sql [  0.00s]
+09:04:30.892601 [info ]: Finished parsing [  0.01s]
+09:04:30.892705 [info ]: Cached model count updated: 2 models (estimate)
+09:04:30.892711 [info ]: Cached model count updated: 2 models (accurate)
+09:04:30.892720 [info ]: Started scheduling
+09:04:30.892734 [info ]: Finished scheduling [  0.00s]
+09:04:30.892738 [debug]: Compilation - 0 nodes selected: {}
+09:04:30.892743 [warn ]: dbt1600: The selection criterion '' does not match any enabled nodes
+09:04:30.892748 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:04:30.892751 [info ]: Started scheduling
+09:04:30.892767 [info ]: Finished scheduling [  0.00s]
+09:04:30.892779 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "dbt", schema: "source", table: "dim_customer" }) and interval: None
+09:04:30.892785 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "dbt", schema: "source", table: "dim_store" }) and interval: None
+09:04:30.981021 [info ]: Started building task graph
+09:04:30.981037 [info ]: Finished building task graph [  0.00s]
+09:04:30.982630 [info ]: Started scheduling
+09:04:30.982656 [info ]: Finished scheduling [  0.00s]
+09:04:30.983603 [info ]: Cached model count updated: 2 models (accurate)
+09:04:32.168144 [info ]: Started loading project
+09:04:32.169198 [info ]: Loading profiles.yml
+09:04:32.197353 [info ]: Cached model count updated: 2 models (estimate)
+09:04:32.197397 [info ]: Cached model count updated: 2 models (accurate)
+09:04:32.197439 [info ]: Started scheduling
+09:04:32.197511 [info ]: Finished scheduling [  0.00s]
+09:04:32.197528 [debug]: Compilation - 2 nodes selected: {"model.dbt_databricks_project.dim_customer", "model.dbt_databricks_project.dim_store"}
+09:04:32.296887 [info ]: Started building task graph
+09:04:32.296918 [info ]: Finished building task graph [  0.00s]
+09:04:32.296984 [info ]: Started rendering (2 nodes)
+09:04:32.296991 [info ]: Started model source.dim_store
+09:04:32.296998 [debug]: Started rendering model source.dim_store
+09:04:32.297009 [info ]: Started model source.dim_customer
+09:04:32.297012 [debug]: Started rendering model source.dim_customer
+09:04:32.297032 [info ]: Finished loading project [  0.13s]
+09:04:32.297501 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_customer at target/.lsp/compiled/models/staging/dim_customer.sql
+09:04:32.297501 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_store at target/.lsp/compiled/models/staging/dim_store.sql
+09:04:32.297578 [debug]: Finished rendering [  0.00s] model source.dim_customer [success]
+09:04:32.297595 [info ]: Started analyzing (2 nodes)
+09:04:32.297601 [debug]: Started analyzing model source.dim_customer
+09:04:32.297610 [debug]: Finished rendering [  0.00s] model source.dim_store [success]
+09:04:32.297612 [info ]: Finished rendering [  0.00s] (2 nodes, 0 skipped, 0 errors)
+09:04:32.297615 [debug]: Started analyzing model source.dim_store
+09:04:32.297768 [info ]:  Succeeded [-------] model source.dim_store (table)
+09:04:32.297774 [debug]: Finished analyzing [  0.00s] model source.dim_store [success]
+09:04:32.297778 [info ]:  Succeeded [-------] model source.dim_customer (table)
+09:04:32.297782 [debug]: Finished analyzing [  0.00s] model source.dim_customer [success]
+09:04:32.297784 [info ]: Finished analyzing [  0.00s] (2 nodes, 0 skipped, 0 errors)
+09:04:32.299209 [info ]: Started scheduling
+09:04:32.299228 [info ]: Finished scheduling [  0.00s]
+09:04:32.299861 [info ]: Cached model count updated: 2 models (accurate)
+09:04:50.481810 [info ]: Started loading project
+09:04:50.482036 [info ]: Loading profiles.yml
+09:04:50.483492 [info ]: Started loading project
+09:04:50.483588 [info ]: Loading profiles.yml
+09:04:50.483604 [info ]: Finished loading project [  0.00s]
+09:04:50.576213 [debug]:    Started loading packages
+09:04:50.576665 [debug]:     Loaded [  0.00s] packages
+09:04:50.577119 [info ]: Started parsing
+09:04:50.589839 [info ]: Finished loading project [  0.11s]
+09:04:50.590053 [debug]: Finished parsing models/source.yml [  0.00s]
+09:04:50.590679 [debug]: Finished parsing models/staging/dim_customer.sql [  0.00s]
+09:04:50.590806 [debug]: Finished parsing models/staging/dim_date.sql [  0.00s]
+09:04:50.591811 [debug]: Finished parsing models/staging/dim_store.sql [  0.00s]
+09:04:50.592297 [info ]: Finished parsing [  0.02s]
+09:04:50.592406 [info ]: Cached model count updated: 3 models (estimate)
+09:04:50.592411 [info ]: Cached model count updated: 3 models (accurate)
+09:04:50.592427 [info ]: Started scheduling
+09:04:50.592442 [info ]: Finished scheduling [  0.00s]
+09:04:50.592446 [debug]: Compilation - 0 nodes selected: {}
+09:04:50.592452 [warn ]: dbt1600: The selection criterion '' does not match any enabled nodes
+09:04:50.592457 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:04:50.592460 [info ]: Started scheduling
+09:04:50.592480 [info ]: Finished scheduling [  0.00s]
+09:04:50.592493 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "dbt", schema: "source", table: "dim_customer" }) and interval: None
+09:04:50.592499 [debug]: Initializing schema store with entry: Frontier(CanonicalFqn { catalog: "dbt", schema: "source", table: "dim_store" }) and interval: None
+09:04:50.678564 [info ]: Started building task graph
+09:04:50.678581 [info ]: Finished building task graph [  0.00s]
+09:04:50.680060 [info ]: Started scheduling
+09:04:50.680083 [info ]: Finished scheduling [  0.00s]
+09:04:50.681141 [info ]: Cached model count updated: 3 models (accurate)
+09:04:51.861773 [info ]: Started loading project
+09:04:51.862299 [info ]: Loading profiles.yml
+09:04:51.890976 [info ]: Cached model count updated: 3 models (estimate)
+09:04:51.891017 [info ]: Cached model count updated: 3 models (accurate)
+09:04:51.891059 [info ]: Started scheduling
+09:04:51.891136 [info ]: Finished scheduling [  0.00s]
+09:04:51.891154 [debug]: Compilation - 2 nodes selected: {"model.dbt_databricks_project.dim_customer", "model.dbt_databricks_project.dim_store"}
+09:04:51.993541 [info ]: Started building task graph
+09:04:51.993576 [info ]: Finished building task graph [  0.00s]
+09:04:51.995495 [info ]: Finished loading project [  0.13s]
+09:04:51.995603 [info ]: Cached model count updated: 3 models (accurate)
+09:04:51.995718 [info ]: Waiting for lease on 'target' directory
+09:04:52.406158 [info ]: Started loading project
+09:04:52.406475 [info ]: Loading profiles.yml
+09:04:52.423343 [info ]: Cached model count updated: 3 models (estimate)
+09:04:52.423357 [info ]: Cached model count updated: 3 models (accurate)
+09:04:52.423378 [info ]: Started scheduling
+09:04:52.423411 [info ]: Finished scheduling [  0.00s]
+09:04:52.423420 [debug]: Compilation - 0 nodes selected: {}
+09:04:52.423428 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_date' does not match any enabled nodes
+09:04:52.423435 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:04:52.521553 [info ]: Started building task graph
+09:04:52.521571 [info ]: Finished building task graph [  0.00s]
+09:04:52.523050 [info ]: Started scheduling
+09:04:52.523073 [info ]: Finished scheduling [  0.00s]
+09:04:52.523229 [info ]: Finished loading project [  0.12s]
+09:04:52.523344 [info ]: Cached model count updated: 3 models (accurate)
+09:04:52.524369 [info ]: Waiting for lease on 'target' directory
+09:04:52.939098 [info ]: Started loading project
+09:04:52.939627 [info ]: Loading profiles.yml
+09:04:52.963464 [info ]: Cached model count updated: 3 models (estimate)
+09:04:52.963486 [info ]: Cached model count updated: 3 models (accurate)
+09:04:52.963509 [info ]: Started scheduling
+09:04:52.963544 [info ]: Finished scheduling [  0.00s]
+09:04:52.963553 [debug]: Compilation - 0 nodes selected: {}
+09:04:52.963563 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_date' does not match any enabled nodes
+09:04:52.963571 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:04:53.062717 [info ]: Started building task graph
+09:04:53.062734 [info ]: Finished building task graph [  0.00s]
+09:04:53.064140 [info ]: Started scheduling
+09:04:53.064160 [info ]: Finished scheduling [  0.00s]
+09:04:53.064307 [info ]: Finished loading project [  0.13s]
+09:04:53.064416 [info ]: Cached model count updated: 3 models (accurate)
+09:04:53.649758 [info ]: Started loading project
+09:04:53.649975 [info ]: Loading profiles.yml
+09:04:53.663782 [info ]: Cached model count updated: 3 models (estimate)
+09:04:53.663796 [info ]: Cached model count updated: 3 models (accurate)
+09:04:53.663812 [info ]: Started scheduling
+09:04:53.663841 [info ]: Finished scheduling [  0.00s]
+09:04:53.663849 [debug]: Compilation - 0 nodes selected: {}
+09:04:53.663857 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_date' does not match any enabled nodes
+09:04:53.663862 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:04:53.788607 [info ]: Started building task graph
+09:04:53.788626 [info ]: Finished building task graph [  0.00s]
+09:04:53.792520 [info ]: Started scheduling
+09:04:53.792559 [info ]: Finished scheduling [  0.00s]
+09:04:53.792929 [info ]: Finished loading project [  0.14s]
+09:04:53.793221 [info ]: Cached model count updated: 3 models (accurate)
+09:04:54.965664 [info ]: Started loading project
+09:04:54.966037 [info ]: Loading profiles.yml
+09:04:54.983732 [info ]: Cached model count updated: 3 models (estimate)
+09:04:54.983748 [info ]: Cached model count updated: 3 models (accurate)
+09:04:54.983769 [info ]: Started scheduling
+09:04:54.983802 [info ]: Finished scheduling [  0.00s]
+09:04:54.983810 [debug]: Compilation - 0 nodes selected: {}
+09:04:54.983819 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_date+' does not match any enabled nodes
+09:04:54.983826 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:04:55.078679 [info ]: Started building task graph
+09:04:55.078699 [info ]: Finished building task graph [  0.00s]
+09:04:55.080096 [info ]: Started scheduling
+09:04:55.080117 [info ]: Finished scheduling [  0.00s]
+09:04:55.080265 [info ]: Finished loading project [  0.11s]
+09:04:55.080829 [info ]: Cached model count updated: 3 models (accurate)
+09:04:56.258080 [info ]: Started loading project
+09:04:56.258738 [info ]: Loading profiles.yml
+09:04:56.287821 [info ]: Cached model count updated: 3 models (estimate)
+09:04:56.287865 [info ]: Cached model count updated: 3 models (accurate)
+09:04:56.287905 [info ]: Started scheduling
+09:04:56.287978 [info ]: Finished scheduling [  0.00s]
+09:04:56.287995 [debug]: Compilation - 2 nodes selected: {"model.dbt_databricks_project.dim_customer", "model.dbt_databricks_project.dim_store"}
+09:04:56.388426 [info ]: Started building task graph
+09:04:56.388458 [info ]: Finished building task graph [  0.00s]
+09:04:56.388524 [info ]: Started rendering (2 nodes)
+09:04:56.388532 [info ]: Started model source.dim_store
+09:04:56.388537 [debug]: Started rendering model source.dim_store
+09:04:56.388549 [info ]: Started model source.dim_customer
+09:04:56.388553 [debug]: Started rendering model source.dim_customer
+09:04:56.388570 [info ]: Finished loading project [  0.13s]
+09:04:56.388970 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_store at target/.lsp/compiled/models/staging/dim_store.sql
+09:04:56.389040 [debug]: Finished rendering [  0.00s] model source.dim_store [success]
+09:04:56.389049 [info ]: Started analyzing (2 nodes)
+09:04:56.389052 [debug]: Started analyzing model source.dim_store
+09:04:56.389209 [info ]:  Succeeded [-------] model source.dim_store (table)
+09:04:56.389219 [debug]: Finished analyzing [  0.00s] model source.dim_store [success]
+09:04:56.389647 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_customer at target/.lsp/compiled/models/staging/dim_customer.sql
+09:04:56.389684 [debug]: Finished rendering [  0.00s] model source.dim_customer [success]
+09:04:56.389690 [info ]: Finished rendering [  0.00s] (2 nodes, 0 skipped, 0 errors)
+09:04:56.389696 [debug]: Started analyzing model source.dim_customer
+09:04:56.389823 [info ]:  Succeeded [  0.00s] model source.dim_customer (table)
+09:04:56.389832 [debug]: Finished analyzing [  0.00s] model source.dim_customer [success]
+09:04:56.389834 [info ]: Finished analyzing [  0.00s] (2 nodes, 0 skipped, 0 errors)
+09:04:56.391385 [info ]: Started scheduling
+09:04:56.391405 [info ]: Finished scheduling [  0.00s]
+09:04:56.392044 [info ]: Cached model count updated: 3 models (accurate)
+09:04:56.852279 [info ]: Started loading project
+09:04:56.852547 [info ]: Loading profiles.yml
+09:04:56.868313 [info ]: Cached model count updated: 3 models (estimate)
+09:04:56.868332 [info ]: Cached model count updated: 3 models (accurate)
+09:04:56.868353 [info ]: Started scheduling
+09:04:56.868385 [info ]: Finished scheduling [  0.00s]
+09:04:56.868393 [debug]: Compilation - 0 nodes selected: {}
+09:04:56.868403 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_date' does not match any enabled nodes
+09:04:56.868409 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:04:56.985142 [info ]: Started building task graph
+09:04:56.985161 [info ]: Finished building task graph [  0.00s]
+09:04:56.986614 [info ]: Started scheduling
+09:04:56.986634 [info ]: Finished scheduling [  0.00s]
+09:04:56.986785 [info ]: Finished loading project [  0.13s]
+09:04:56.986910 [info ]: Cached model count updated: 3 models (accurate)
+09:04:58.158985 [info ]: Started loading project
+09:04:58.159536 [info ]: Loading profiles.yml
+09:04:58.173550 [info ]: Cached model count updated: 3 models (estimate)
+09:04:58.173568 [info ]: Cached model count updated: 3 models (accurate)
+09:04:58.173585 [info ]: Started scheduling
+09:04:58.173618 [info ]: Finished scheduling [  0.00s]
+09:04:58.173625 [debug]: Compilation - 0 nodes selected: {}
+09:04:58.173634 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_date+' does not match any enabled nodes
+09:04:58.173640 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:04:58.265497 [info ]: Started building task graph
+09:04:58.265515 [info ]: Finished building task graph [  0.00s]
+09:04:58.266916 [info ]: Started scheduling
+09:04:58.266937 [info ]: Finished scheduling [  0.00s]
+09:04:58.267096 [info ]: Finished loading project [  0.11s]
+09:04:58.267631 [info ]: Cached model count updated: 3 models (accurate)
+09:04:59.446727 [info ]: Started loading project
+09:04:59.447279 [info ]: Loading profiles.yml
+09:04:59.476470 [info ]: Cached model count updated: 3 models (estimate)
+09:04:59.476510 [info ]: Cached model count updated: 3 models (accurate)
+09:04:59.476547 [info ]: Started scheduling
+09:04:59.476617 [info ]: Finished scheduling [  0.00s]
+09:04:59.476634 [debug]: Compilation - 2 nodes selected: {"model.dbt_databricks_project.dim_customer", "model.dbt_databricks_project.dim_store"}
+09:04:59.576904 [info ]: Started building task graph
+09:04:59.576937 [info ]: Finished building task graph [  0.00s]
+09:04:59.577001 [info ]: Started rendering (2 nodes)
+09:04:59.577011 [info ]: Started model source.dim_store
+09:04:59.577016 [debug]: Started rendering model source.dim_store
+09:04:59.577028 [info ]: Started model source.dim_customer
+09:04:59.577032 [debug]: Started rendering model source.dim_customer
+09:04:59.577046 [info ]: Finished loading project [  0.13s]
+09:04:59.577211 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_customer at target/.lsp/compiled/models/staging/dim_customer.sql
+09:04:59.577213 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_store at target/.lsp/compiled/models/staging/dim_store.sql
+09:04:59.577248 [debug]: Finished rendering [  0.00s] model source.dim_store [success]
+09:04:59.577258 [info ]: Started analyzing (2 nodes)
+09:04:59.577263 [debug]: Started analyzing model source.dim_store
+09:04:59.577270 [debug]: Finished rendering [  0.00s] model source.dim_customer [success]
+09:04:59.577273 [info ]: Finished rendering [  0.00s] (2 nodes, 0 skipped, 0 errors)
+09:04:59.577276 [debug]: Started analyzing model source.dim_customer
+09:04:59.577425 [info ]:  Succeeded [-------] model source.dim_customer (table)
+09:04:59.577432 [debug]: Finished analyzing [  0.00s] model source.dim_customer [success]
+09:04:59.577437 [info ]:  Succeeded [-------] model source.dim_store (table)
+09:04:59.577440 [debug]: Finished analyzing [  0.00s] model source.dim_store [success]
+09:04:59.577442 [info ]: Finished analyzing [  0.00s] (2 nodes, 0 skipped, 0 errors)
+09:04:59.578883 [info ]: Started scheduling
+09:04:59.578902 [info ]: Finished scheduling [  0.00s]
+09:04:59.579510 [info ]: Cached model count updated: 3 models (accurate)
+09:05:02.734806 [info ]: Started loading project
+09:05:02.735282 [info ]: Loading profiles.yml
+09:05:02.751835 [info ]: Cached model count updated: 3 models (estimate)
+09:05:02.751852 [info ]: Cached model count updated: 3 models (accurate)
+09:05:02.751873 [info ]: Started scheduling
+09:05:02.751904 [info ]: Finished scheduling [  0.00s]
+09:05:02.751913 [debug]: Compilation - 0 nodes selected: {}
+09:05:02.751922 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_date' does not match any enabled nodes
+09:05:02.751928 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:05:02.845428 [info ]: Started building task graph
+09:05:02.845445 [info ]: Finished building task graph [  0.00s]
+09:05:02.846872 [info ]: Started scheduling
+09:05:02.846893 [info ]: Finished scheduling [  0.00s]
+09:05:02.847037 [info ]: Finished loading project [  0.11s]
+09:05:02.847160 [info ]: Cached model count updated: 3 models (accurate)
+09:05:04.027379 [info ]: Started loading project
+09:05:04.027980 [info ]: Loading profiles.yml
+09:05:04.056640 [info ]: Cached model count updated: 3 models (estimate)
+09:05:04.056684 [info ]: Cached model count updated: 3 models (accurate)
+09:05:04.056725 [info ]: Started scheduling
+09:05:04.056793 [info ]: Finished scheduling [  0.00s]
+09:05:04.056810 [debug]: Compilation - 0 nodes selected: {}
+09:05:04.056827 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_date+' does not match any enabled nodes
+09:05:04.056838 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:05:04.157873 [info ]: Started building task graph
+09:05:04.157893 [info ]: Finished building task graph [  0.00s]
+09:05:04.159337 [info ]: Started scheduling
+09:05:04.159357 [info ]: Finished scheduling [  0.00s]
+09:05:04.159511 [info ]: Finished loading project [  0.13s]
+09:05:04.160064 [info ]: Cached model count updated: 3 models (accurate)
+09:05:04.617597 [info ]: Started loading project
+09:05:04.618408 [info ]: Loading profiles.yml
+09:05:04.637648 [info ]: Cached model count updated: 3 models (estimate)
+09:05:04.637674 [info ]: Cached model count updated: 3 models (accurate)
+09:05:04.637694 [info ]: Started scheduling
+09:05:04.637724 [info ]: Finished scheduling [  0.00s]
+09:05:04.637733 [debug]: Compilation - 0 nodes selected: {}
+09:05:04.637741 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_date' does not match any enabled nodes
+09:05:04.637747 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:05:04.735761 [info ]: Started building task graph
+09:05:04.735781 [info ]: Finished building task graph [  0.00s]
+09:05:04.737404 [info ]: Started scheduling
+09:05:04.737429 [info ]: Finished scheduling [  0.00s]
+09:05:04.737587 [info ]: Finished loading project [  0.12s]
+09:05:04.737709 [info ]: Cached model count updated: 3 models (accurate)
+09:05:05.923118 [info ]: Started loading project
+09:05:05.923646 [info ]: Loading profiles.yml
+09:05:05.951931 [info ]: Cached model count updated: 3 models (estimate)
+09:05:05.951971 [info ]: Cached model count updated: 3 models (accurate)
+09:05:05.952012 [info ]: Started scheduling
+09:05:05.952079 [info ]: Finished scheduling [  0.00s]
+09:05:05.952098 [debug]: Compilation - 0 nodes selected: {}
+09:05:05.952119 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_date+' does not match any enabled nodes
+09:05:05.952130 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:05:06.052485 [info ]: Started building task graph
+09:05:06.052505 [info ]: Finished building task graph [  0.00s]
+09:05:06.053885 [info ]: Started scheduling
+09:05:06.053905 [info ]: Finished scheduling [  0.00s]
+09:05:06.054052 [info ]: Finished loading project [  0.13s]
+09:05:06.054597 [info ]: Cached model count updated: 3 models (accurate)
+09:05:07.234822 [info ]: Started loading project
+09:05:07.235395 [info ]: Loading profiles.yml
+09:05:07.263652 [info ]: Cached model count updated: 3 models (estimate)
+09:05:07.263688 [info ]: Cached model count updated: 3 models (accurate)
+09:05:07.263723 [info ]: Started scheduling
+09:05:07.263794 [info ]: Finished scheduling [  0.00s]
+09:05:07.263810 [debug]: Compilation - 2 nodes selected: {"model.dbt_databricks_project.dim_customer", "model.dbt_databricks_project.dim_store"}
+09:05:07.364511 [info ]: Started building task graph
+09:05:07.364543 [info ]: Finished building task graph [  0.00s]
+09:05:07.364610 [info ]: Started rendering (2 nodes)
+09:05:07.364618 [info ]: Started model source.dim_store
+09:05:07.364624 [debug]: Started rendering model source.dim_store
+09:05:07.364636 [info ]: Started model source.dim_customer
+09:05:07.364639 [debug]: Started rendering model source.dim_customer
+09:05:07.364656 [info ]: Finished loading project [  0.13s]
+09:05:07.364849 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_store at target/.lsp/compiled/models/staging/dim_store.sql
+09:05:07.364849 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_customer at target/.lsp/compiled/models/staging/dim_customer.sql
+09:05:07.364892 [debug]: Finished rendering [  0.00s] model source.dim_store [success]
+09:05:07.364902 [info ]: Started analyzing (2 nodes)
+09:05:07.364905 [debug]: Started analyzing model source.dim_store
+09:05:07.364913 [debug]: Finished rendering [  0.00s] model source.dim_customer [success]
+09:05:07.364916 [info ]: Finished rendering [  0.00s] (2 nodes, 0 skipped, 0 errors)
+09:05:07.364919 [debug]: Started analyzing model source.dim_customer
+09:05:07.365062 [info ]:  Succeeded [-------] model source.dim_customer (table)
+09:05:07.365069 [debug]: Finished analyzing [  0.00s] model source.dim_customer [success]
+09:05:07.365096 [info ]:  Succeeded [-------] model source.dim_store (table)
+09:05:07.365103 [debug]: Finished analyzing [  0.00s] model source.dim_store [success]
+09:05:07.365106 [info ]: Finished analyzing [  0.00s] (2 nodes, 0 skipped, 0 errors)
+09:05:07.366500 [info ]: Started scheduling
+09:05:07.366519 [info ]: Finished scheduling [  0.00s]
+09:05:07.367140 [info ]: Cached model count updated: 3 models (accurate)
+09:05:08.103933 [info ]: Started loading project
+09:05:08.104248 [info ]: Loading profiles.yml
+09:05:08.125992 [info ]: Cached model count updated: 3 models (estimate)
+09:05:08.126009 [info ]: Cached model count updated: 3 models (accurate)
+09:05:08.126031 [info ]: Started scheduling
+09:05:08.126062 [info ]: Finished scheduling [  0.00s]
+09:05:08.126071 [debug]: Compilation - 0 nodes selected: {}
+09:05:08.126081 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_date' does not match any enabled nodes
+09:05:08.126088 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:05:08.224450 [info ]: Started building task graph
+09:05:08.224468 [info ]: Finished building task graph [  0.00s]
+09:05:08.226453 [info ]: Started scheduling
+09:05:08.226480 [info ]: Finished scheduling [  0.00s]
+09:05:08.226644 [info ]: Finished loading project [  0.12s]
+09:05:08.226769 [info ]: Cached model count updated: 3 models (accurate)
+09:05:09.401472 [info ]: Started loading project
+09:05:09.401830 [info ]: Loading profiles.yml
+09:05:09.426096 [info ]: Cached model count updated: 3 models (estimate)
+09:05:09.426117 [info ]: Cached model count updated: 3 models (accurate)
+09:05:09.426136 [info ]: Started scheduling
+09:05:09.426176 [info ]: Finished scheduling [  0.00s]
+09:05:09.426187 [debug]: Compilation - 0 nodes selected: {}
+09:05:09.426201 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_date+' does not match any enabled nodes
+09:05:09.426210 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:05:09.531396 [info ]: Started building task graph
+09:05:09.531415 [info ]: Finished building task graph [  0.00s]
+09:05:09.532838 [info ]: Started scheduling
+09:05:09.532861 [info ]: Finished scheduling [  0.00s]
+09:05:09.533006 [info ]: Finished loading project [  0.13s]
+09:05:09.533557 [info ]: Cached model count updated: 3 models (accurate)
+09:05:10.713241 [info ]: Started loading project
+09:05:10.713814 [info ]: Loading profiles.yml
+09:05:10.740402 [info ]: Cached model count updated: 3 models (estimate)
+09:05:10.740443 [info ]: Cached model count updated: 3 models (accurate)
+09:05:10.740477 [info ]: Started scheduling
+09:05:10.740549 [info ]: Finished scheduling [  0.00s]
+09:05:10.740567 [debug]: Compilation - 2 nodes selected: {"model.dbt_databricks_project.dim_customer", "model.dbt_databricks_project.dim_store"}
+09:05:10.839841 [info ]: Started building task graph
+09:05:10.839873 [info ]: Finished building task graph [  0.00s]
+09:05:10.839935 [info ]: Started rendering (2 nodes)
+09:05:10.839942 [info ]: Started model source.dim_store
+09:05:10.839947 [debug]: Started rendering model source.dim_store
+09:05:10.839959 [info ]: Started model source.dim_customer
+09:05:10.839971 [debug]: Started rendering model source.dim_customer
+09:05:10.839976 [info ]: Finished loading project [  0.13s]
+09:05:10.840110 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_store at target/.lsp/compiled/models/staging/dim_store.sql
+09:05:10.840110 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_customer at target/.lsp/compiled/models/staging/dim_customer.sql
+09:05:10.840151 [debug]: Finished rendering [  0.00s] model source.dim_customer [success]
+09:05:10.840162 [info ]: Started analyzing (2 nodes)
+09:05:10.840164 [debug]: Started analyzing model source.dim_customer
+09:05:10.840173 [debug]: Finished rendering [  0.00s] model source.dim_store [success]
+09:05:10.840175 [info ]: Finished rendering [  0.00s] (2 nodes, 0 skipped, 0 errors)
+09:05:10.840179 [debug]: Started analyzing model source.dim_store
+09:05:10.840344 [info ]:  Succeeded [-------] model source.dim_customer (table)
+09:05:10.840351 [debug]: Finished analyzing [  0.00s] model source.dim_customer [success]
+09:05:10.840358 [info ]:  Succeeded [-------] model source.dim_store (table)
+09:05:10.840363 [debug]: Finished analyzing [  0.00s] model source.dim_store [success]
+09:05:10.840366 [info ]: Finished analyzing [  0.00s] (2 nodes, 0 skipped, 0 errors)
+09:05:10.841751 [info ]: Started scheduling
+09:05:10.841770 [info ]: Finished scheduling [  0.00s]
+09:05:10.842371 [info ]: Cached model count updated: 3 models (accurate)
+09:07:01.837072 [info ]: Started loading project
+09:07:01.837350 [info ]: Loading profiles.yml
+09:07:01.852470 [info ]: Cached model count updated: 3 models (estimate)
+09:07:01.852486 [info ]: Cached model count updated: 3 models (accurate)
+09:07:01.852505 [info ]: Started scheduling
+09:07:01.852536 [info ]: Finished scheduling [  0.00s]
+09:07:01.852546 [debug]: Compilation - 0 nodes selected: {}
+09:07:01.852556 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_date' does not match any enabled nodes
+09:07:01.852562 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:07:01.944619 [info ]: Started building task graph
+09:07:01.944638 [info ]: Finished building task graph [  0.00s]
+09:07:01.946039 [info ]: Started scheduling
+09:07:01.946061 [info ]: Finished scheduling [  0.00s]
+09:07:01.946214 [info ]: Finished loading project [  0.11s]
+09:07:01.946337 [info ]: Cached model count updated: 3 models (accurate)
+09:07:03.124196 [info ]: Started loading project
+09:07:03.124719 [info ]: Loading profiles.yml
+09:07:03.153539 [info ]: Cached model count updated: 3 models (estimate)
+09:07:03.153581 [info ]: Cached model count updated: 3 models (accurate)
+09:07:03.153621 [info ]: Started scheduling
+09:07:03.153688 [info ]: Finished scheduling [  0.00s]
+09:07:03.153705 [debug]: Compilation - 0 nodes selected: {}
+09:07:03.153723 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_date+' does not match any enabled nodes
+09:07:03.153735 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:07:03.256694 [info ]: Started building task graph
+09:07:03.256712 [info ]: Finished building task graph [  0.00s]
+09:07:03.258519 [info ]: Finished loading project [  0.13s]
+09:07:03.258637 [info ]: Cached model count updated: 3 models (accurate)
+09:07:03.258813 [info ]: Waiting for lease on 'target' directory
+09:07:03.674920 [info ]: Started loading project
+09:07:03.675387 [info ]: Loading profiles.yml
+09:07:03.696553 [info ]: Cached model count updated: 3 models (estimate)
+09:07:03.696594 [info ]: Cached model count updated: 3 models (accurate)
+09:07:03.696633 [info ]: Started scheduling
+09:07:03.696700 [info ]: Finished scheduling [  0.00s]
+09:07:03.696715 [debug]: Compilation - 0 nodes selected: {}
+09:07:03.696731 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_date' does not match any enabled nodes
+09:07:03.696742 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:07:03.793660 [info ]: Started building task graph
+09:07:03.793678 [info ]: Finished building task graph [  0.00s]
+09:07:03.795081 [info ]: Started scheduling
+09:07:03.795102 [info ]: Finished scheduling [  0.00s]
+09:07:03.795242 [info ]: Finished loading project [  0.12s]
+09:07:03.795371 [info ]: Cached model count updated: 3 models (accurate)
+09:07:03.796203 [info ]: Waiting for lease on 'target' directory
+09:07:04.211130 [info ]: Started loading project
+09:07:04.211660 [info ]: Loading profiles.yml
+09:07:04.236797 [info ]: Cached model count updated: 3 models (estimate)
+09:07:04.236822 [info ]: Cached model count updated: 3 models (accurate)
+09:07:04.236844 [info ]: Started scheduling
+09:07:04.236881 [info ]: Finished scheduling [  0.00s]
+09:07:04.236891 [debug]: Compilation - 0 nodes selected: {}
+09:07:04.236902 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_date' does not match any enabled nodes
+09:07:04.236909 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:07:04.335098 [info ]: Started building task graph
+09:07:04.335116 [info ]: Finished building task graph [  0.00s]
+09:07:04.336619 [info ]: Started scheduling
+09:07:04.336641 [info ]: Finished scheduling [  0.00s]
+09:07:04.336789 [info ]: Finished loading project [  0.13s]
+09:07:04.336910 [info ]: Cached model count updated: 3 models (accurate)
+09:07:05.054893 [info ]: Started loading project
+09:07:05.055209 [info ]: Loading profiles.yml
+09:07:05.070725 [info ]: Cached model count updated: 3 models (estimate)
+09:07:05.070744 [info ]: Cached model count updated: 3 models (accurate)
+09:07:05.070764 [info ]: Started scheduling
+09:07:05.070796 [info ]: Finished scheduling [  0.00s]
+09:07:05.070804 [debug]: Compilation - 0 nodes selected: {}
+09:07:05.070814 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_date' does not match any enabled nodes
+09:07:05.070821 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:07:05.164206 [info ]: Started building task graph
+09:07:05.164224 [info ]: Finished building task graph [  0.00s]
+09:07:05.165708 [info ]: Started scheduling
+09:07:05.165731 [info ]: Finished scheduling [  0.00s]
+09:07:05.165879 [info ]: Finished loading project [  0.11s]
+09:07:05.165999 [info ]: Cached model count updated: 3 models (accurate)
+09:07:06.342061 [info ]: Started loading project
+09:07:06.342346 [info ]: Loading profiles.yml
+09:07:06.359294 [info ]: Cached model count updated: 3 models (estimate)
+09:07:06.359312 [info ]: Cached model count updated: 3 models (accurate)
+09:07:06.359332 [info ]: Started scheduling
+09:07:06.359366 [info ]: Finished scheduling [  0.00s]
+09:07:06.359375 [debug]: Compilation - 0 nodes selected: {}
+09:07:06.359384 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_date+' does not match any enabled nodes
+09:07:06.359391 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:07:06.454751 [info ]: Started building task graph
+09:07:06.454771 [info ]: Finished building task graph [  0.00s]
+09:07:06.456186 [info ]: Started scheduling
+09:07:06.456207 [info ]: Finished scheduling [  0.00s]
+09:07:06.456351 [info ]: Finished loading project [  0.11s]
+09:07:06.456892 [info ]: Cached model count updated: 3 models (accurate)
+09:07:07.637950 [info ]: Started loading project
+09:07:07.638490 [info ]: Loading profiles.yml
+09:07:07.667368 [info ]: Cached model count updated: 3 models (estimate)
+09:07:07.667411 [info ]: Cached model count updated: 3 models (accurate)
+09:07:07.667447 [info ]: Started scheduling
+09:07:07.667525 [info ]: Finished scheduling [  0.00s]
+09:07:07.667542 [debug]: Compilation - 2 nodes selected: {"model.dbt_databricks_project.dim_customer", "model.dbt_databricks_project.dim_store"}
+09:07:07.767380 [info ]: Started building task graph
+09:07:07.767411 [info ]: Finished building task graph [  0.00s]
+09:07:07.767476 [info ]: Started rendering (2 nodes)
+09:07:07.767486 [info ]: Started model source.dim_store
+09:07:07.767492 [debug]: Started rendering model source.dim_store
+09:07:07.767503 [info ]: Started model source.dim_customer
+09:07:07.767507 [debug]: Started rendering model source.dim_customer
+09:07:07.767521 [info ]: Finished loading project [  0.13s]
+09:07:07.769437 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_customer at target/.lsp/compiled/models/staging/dim_customer.sql
+09:07:07.769437 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_store at target/.lsp/compiled/models/staging/dim_store.sql
+09:07:07.769479 [debug]: Finished rendering [  0.00s] model source.dim_store [success]
+09:07:07.769491 [info ]: Started analyzing (2 nodes)
+09:07:07.769494 [debug]: Started analyzing model source.dim_store
+09:07:07.769503 [debug]: Finished rendering [  0.00s] model source.dim_customer [success]
+09:07:07.769507 [info ]: Finished rendering [  0.00s] (2 nodes, 0 skipped, 0 errors)
+09:07:07.769511 [debug]: Started analyzing model source.dim_customer
+09:07:07.769670 [info ]:  Succeeded [  0.00s] model source.dim_customer (table)
+09:07:07.769677 [debug]: Finished analyzing [  0.00s] model source.dim_customer [success]
+09:07:07.769681 [info ]:  Succeeded [  0.00s] model source.dim_store (table)
+09:07:07.769685 [debug]: Finished analyzing [  0.00s] model source.dim_store [success]
+09:07:07.769687 [info ]: Finished analyzing [  0.00s] (2 nodes, 0 skipped, 0 errors)
+09:07:07.771092 [info ]: Started scheduling
+09:07:07.771110 [info ]: Finished scheduling [  0.00s]
+09:07:07.771709 [info ]: Cached model count updated: 3 models (accurate)
+09:07:07.856030 [info ]: Waiting for lease on 'target' directory
+09:07:08.171673 [info ]: Started loading project
+09:07:08.172154 [info ]: Loading profiles.yml
+09:07:08.193467 [info ]: Cached model count updated: 3 models (estimate)
+09:07:08.193486 [info ]: Cached model count updated: 3 models (accurate)
+09:07:08.193508 [info ]: Started scheduling
+09:07:08.193541 [info ]: Finished scheduling [  0.00s]
+09:07:08.193552 [debug]: Compilation - 0 nodes selected: {}
+09:07:08.193562 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_date' does not match any enabled nodes
+09:07:08.193569 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:07:08.290675 [info ]: Started building task graph
+09:07:08.290693 [info ]: Finished building task graph [  0.00s]
+09:07:08.292127 [info ]: Started scheduling
+09:07:08.292147 [info ]: Finished scheduling [  0.00s]
+09:07:08.292292 [info ]: Finished loading project [  0.12s]
+09:07:08.292412 [info ]: Cached model count updated: 3 models (accurate)
+09:07:09.106357 [info ]: Started loading project
+09:07:09.106582 [info ]: Loading profiles.yml
+09:07:09.120740 [info ]: Cached model count updated: 3 models (estimate)
+09:07:09.120758 [info ]: Cached model count updated: 3 models (accurate)
+09:07:09.120776 [info ]: Started scheduling
+09:07:09.120806 [info ]: Finished scheduling [  0.00s]
+09:07:09.120813 [debug]: Compilation - 0 nodes selected: {}
+09:07:09.120822 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_date' does not match any enabled nodes
+09:07:09.120828 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:07:09.212531 [info ]: Started building task graph
+09:07:09.212549 [info ]: Finished building task graph [  0.00s]
+09:07:09.214092 [info ]: Started scheduling
+09:07:09.214119 [info ]: Finished scheduling [  0.00s]
+09:07:09.214267 [info ]: Finished loading project [  0.11s]
+09:07:09.214390 [info ]: Cached model count updated: 3 models (accurate)
+09:07:10.397117 [info ]: Started loading project
+09:07:10.397602 [info ]: Loading profiles.yml
+09:07:10.419302 [info ]: Cached model count updated: 3 models (estimate)
+09:07:10.419329 [info ]: Cached model count updated: 3 models (accurate)
+09:07:10.419364 [info ]: Started scheduling
+09:07:10.419427 [info ]: Finished scheduling [  0.00s]
+09:07:10.419442 [debug]: Compilation - 0 nodes selected: {}
+09:07:10.419456 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_date+' does not match any enabled nodes
+09:07:10.419466 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:07:10.518946 [info ]: Started building task graph
+09:07:10.518967 [info ]: Finished building task graph [  0.00s]
+09:07:10.520363 [info ]: Started scheduling
+09:07:10.520387 [info ]: Finished scheduling [  0.00s]
+09:07:10.520531 [info ]: Finished loading project [  0.12s]
+09:07:10.521071 [info ]: Cached model count updated: 3 models (accurate)
+09:07:11.234529 [info ]: Started loading project
+09:07:11.235149 [info ]: Loading profiles.yml
+09:07:11.251027 [info ]: Cached model count updated: 3 models (estimate)
+09:07:11.251046 [info ]: Cached model count updated: 3 models (accurate)
+09:07:11.251066 [info ]: Started scheduling
+09:07:11.251097 [info ]: Finished scheduling [  0.00s]
+09:07:11.251108 [debug]: Compilation - 0 nodes selected: {}
+09:07:11.251117 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_date' does not match any enabled nodes
+09:07:11.251123 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:07:11.344822 [info ]: Started building task graph
+09:07:11.344841 [info ]: Finished building task graph [  0.00s]
+09:07:11.346265 [info ]: Started scheduling
+09:07:11.346286 [info ]: Finished scheduling [  0.00s]
+09:07:11.346426 [info ]: Finished loading project [  0.11s]
+09:07:11.346547 [info ]: Cached model count updated: 3 models (accurate)
+09:07:12.521330 [info ]: Started loading project
+09:07:12.521775 [info ]: Loading profiles.yml
+09:07:12.542191 [info ]: Cached model count updated: 3 models (estimate)
+09:07:12.542215 [info ]: Cached model count updated: 3 models (accurate)
+09:07:12.542237 [info ]: Started scheduling
+09:07:12.542273 [info ]: Finished scheduling [  0.00s]
+09:07:12.542282 [debug]: Compilation - 0 nodes selected: {}
+09:07:12.542292 [warn ]: dbt1600: The selection criterion '+fqn:model.dbt_databricks_project.dim_date+' does not match any enabled nodes
+09:07:12.542299 [warn ]: dbt1601: Nothing to do. Try checking your model configs and model specification args
+09:07:12.641170 [info ]: Started building task graph
+09:07:12.641190 [info ]: Finished building task graph [  0.00s]
+09:07:12.642577 [info ]: Started scheduling
+09:07:12.642598 [info ]: Finished scheduling [  0.00s]
+09:07:12.642741 [info ]: Finished loading project [  0.12s]
+09:07:12.643217 [info ]: Cached model count updated: 3 models (accurate)
+09:07:13.821393 [info ]: Started loading project
+09:07:13.821860 [info ]: Loading profiles.yml
+09:07:13.843899 [info ]: Cached model count updated: 3 models (estimate)
+09:07:13.843920 [info ]: Cached model count updated: 3 models (accurate)
+09:07:13.843941 [info ]: Started scheduling
+09:07:13.843981 [info ]: Finished scheduling [  0.00s]
+09:07:13.843991 [debug]: Compilation - 2 nodes selected: {"model.dbt_databricks_project.dim_customer", "model.dbt_databricks_project.dim_store"}
+09:07:13.941347 [info ]: Started building task graph
+09:07:13.941392 [info ]: Finished building task graph [  0.00s]
+09:07:13.941462 [info ]: Started rendering (2 nodes)
+09:07:13.941469 [info ]: Started model source.dim_store
+09:07:13.941475 [debug]: Started rendering model source.dim_store
+09:07:13.941487 [info ]: Started model source.dim_customer
+09:07:13.941490 [debug]: Started rendering model source.dim_customer
+09:07:13.941507 [info ]: Finished loading project [  0.12s]
+09:07:13.941656 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_customer at target/.lsp/compiled/models/staging/dim_customer.sql
+09:07:13.941655 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_store at target/.lsp/compiled/models/staging/dim_store.sql
+09:07:13.941706 [debug]: Finished rendering [  0.00s] model source.dim_customer [success]
+09:07:13.941715 [info ]: Started analyzing (2 nodes)
+09:07:13.941718 [debug]: Started analyzing model source.dim_customer
+09:07:13.941731 [debug]: Finished rendering [  0.00s] model source.dim_store [success]
+09:07:13.941736 [info ]: Finished rendering [  0.00s] (2 nodes, 0 skipped, 0 errors)
+09:07:13.941741 [debug]: Started analyzing model source.dim_store
+09:07:13.941873 [info ]:  Succeeded [-------] model source.dim_customer (table)
+09:07:13.941880 [debug]: Finished analyzing [  0.00s] model source.dim_customer [success]
+09:07:13.941889 [info ]:  Succeeded [-------] model source.dim_store (table)
+09:07:13.941896 [debug]: Finished analyzing [  0.00s] model source.dim_store [success]
+09:07:13.941898 [info ]: Finished analyzing [  0.00s] (2 nodes, 0 skipped, 0 errors)
+09:07:13.943295 [info ]: Started scheduling
+09:07:13.943314 [info ]: Finished scheduling [  0.00s]
+09:07:13.943903 [info ]: Cached model count updated: 3 models (accurate)
+09:07:41.438868 [info ]: Started loading project
+09:07:41.439111 [info ]: Loading profiles.yml
+09:07:41.441749 [info ]: Started parsing
+09:07:41.456295 [info ]: Finished loading project [  0.02s]
+09:07:41.457831 [debug]: Finished parsing models/staging/dim_date.sql [  0.00s]
+09:07:41.459062 [error]: dbt1048: Source 'dbt.dbt_date' not found in project. Searched for 'dbt_date'
+  --> models/staging/dim_date.sql:9:6
+09:07:41.460262 [info ]: Cached model count updated: 3 models (estimate)
+09:07:41.460268 [info ]: Cached model count updated: 3 models (accurate)
+09:07:41.460283 [info ]: Started scheduling
+09:07:41.460315 [info ]: Finished scheduling [  0.00s]
+09:07:41.460322 [debug]: Compilation - 1 nodes selected: {"model.dbt_databricks_project.dim_date"}
+09:07:41.552750 [info ]: Started building task graph
+09:07:41.552774 [info ]: Finished building task graph [  0.00s]
+09:07:41.552833 [info ]: Started rendering (1 nodes)
+09:07:41.552840 [info ]: Started model source.dim_date
+09:07:41.552845 [debug]: Started rendering model source.dim_date
+09:07:41.553663 [error]: dbt1501: Failed to render SQL not a key type: Source not found for source name: dbt, table name: dbt_date
+(in models/staging/dim_date.sql:9:6)
+  --> models/staging/dim_date.sql:9:6
+09:07:41.553702 [info ]: Started analyzing (1 nodes)
+09:07:41.553707 [debug]: Started analyzing model source.dim_date
+09:07:41.553717 [info ]:     Failed [-------] model source.dim_date (table)
+09:07:41.553730 [debug]: Finished analyzing [  0.00s] model source.dim_date [skipped]
+09:07:41.553734 [info ]: Finished analyzing [  0.00s] (1 nodes, 1 skipped, 0 errors)
+09:07:41.553791 [info ]: Finished parsing [  0.11s]
+09:07:41.555338 [info ]: Started scheduling
+09:07:41.555376 [info ]: Finished scheduling [  0.00s]
+09:07:41.556060 [info ]: Cached model count updated: 3 models (accurate)
+09:07:41.556075 [debug]: Finished rendering [  0.00s] model source.dim_date [error]
+09:07:41.556080 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 1 errors)
+09:07:42.732861 [info ]: Started loading project
+09:07:42.733584 [info ]: Loading profiles.yml
+09:07:42.756301 [info ]: Cached model count updated: 3 models (estimate)
+09:07:42.756337 [info ]: Cached model count updated: 3 models (accurate)
+09:07:42.756379 [info ]: Started scheduling
+09:07:42.756457 [info ]: Finished scheduling [  0.00s]
+09:07:42.756474 [debug]: Compilation - 1 nodes selected: {"model.dbt_databricks_project.dim_date"}
+09:07:42.856991 [info ]: Started building task graph
+09:07:42.857019 [info ]: Finished building task graph [  0.00s]
+09:07:42.857091 [info ]: Started rendering (1 nodes)
+09:07:42.857099 [info ]: Started model source.dim_date
+09:07:42.857105 [debug]: Started rendering model source.dim_date
+09:07:42.857137 [info ]: Finished loading project [  0.12s]
+09:07:42.857409 [error]: dbt1501: Failed to render SQL not a key type: Source not found for source name: dbt, table name: dbt_date
+(in models/staging/dim_date.sql:9:6)
+  --> models/staging/dim_date.sql:9:6
+09:07:42.857438 [info ]: Started analyzing (1 nodes)
+09:07:42.857442 [debug]: Started analyzing model source.dim_date
+09:07:42.857449 [info ]:     Failed [-------] model source.dim_date (table)
+09:07:42.857457 [debug]: Finished analyzing [  0.00s] model source.dim_date [skipped]
+09:07:42.857515 [info ]: Finished analyzing [  0.00s] (1 nodes, 1 skipped, 0 errors)
+09:07:42.858958 [info ]: Started scheduling
+09:07:42.858980 [info ]: Finished scheduling [  0.00s]
+09:07:42.859660 [info ]: Cached model count updated: 3 models (accurate)
+09:07:42.859696 [debug]: Finished rendering [  0.00s] model source.dim_date [error]
+09:07:42.859701 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 1 errors)
+09:07:44.040151 [info ]: Started loading project
+09:07:44.040688 [info ]: Loading profiles.yml
+09:07:44.070672 [info ]: Cached model count updated: 3 models (estimate)
+09:07:44.070713 [info ]: Cached model count updated: 3 models (accurate)
+09:07:44.070748 [info ]: Started scheduling
+09:07:44.070818 [info ]: Finished scheduling [  0.00s]
+09:07:44.070834 [debug]: Compilation - 3 nodes selected: {"model.dbt_databricks_project.dim_customer", "model.dbt_databricks_project.dim_date", "model.dbt_databricks_project.dim_store"}
+09:07:44.169856 [info ]: Started building task graph
+09:07:44.169892 [info ]: Finished building task graph [  0.00s]
+09:07:44.169958 [info ]: Started rendering (3 nodes)
+09:07:44.169967 [info ]: Started model source.dim_store
+09:07:44.169971 [debug]: Started rendering model source.dim_store
+09:07:44.169984 [info ]: Started model source.dim_date
+09:07:44.169988 [debug]: Started rendering model source.dim_date
+09:07:44.169992 [info ]: Started model source.dim_customer
+09:07:44.169994 [debug]: Started rendering model source.dim_customer
+09:07:44.170003 [info ]: Finished loading project [  0.13s]
+09:07:44.170168 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_store at target/.lsp/compiled/models/staging/dim_store.sql
+09:07:44.170168 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_customer at target/.lsp/compiled/models/staging/dim_customer.sql
+09:07:44.170207 [info ]: Started analyzing (3 nodes)
+09:07:44.170210 [debug]: Finished rendering [  0.00s] model source.dim_store [success]
+09:07:44.170211 [debug]: Started analyzing model source.dim_store
+09:07:44.170220 [debug]: Finished rendering [  0.00s] model source.dim_customer [success]
+09:07:44.170225 [debug]: Started analyzing model source.dim_customer
+09:07:44.170277 [error]: dbt1501: Failed to render SQL not a key type: Source not found for source name: dbt, table name: dbt_date
+(in models/staging/dim_date.sql:9:6)
+  --> models/staging/dim_date.sql:9:6
+09:07:44.170291 [debug]: Started analyzing model source.dim_date
+09:07:44.170297 [info ]:     Failed [-------] model source.dim_date (table)
+09:07:44.170303 [debug]: Finished analyzing [  0.00s] model source.dim_date [skipped]
+09:07:44.170315 [debug]: Finished rendering [  0.00s] model source.dim_date [error]
+09:07:44.170318 [info ]: Finished rendering [  0.00s] (3 nodes, 0 skipped, 1 errors)
+09:07:44.170374 [info ]:  Succeeded [-------] model source.dim_store (table)
+09:07:44.170382 [debug]: Finished analyzing [  0.00s] model source.dim_store [success]
+09:07:44.170387 [info ]:  Succeeded [-------] model source.dim_customer (table)
+09:07:44.170391 [debug]: Finished analyzing [  0.00s] model source.dim_customer [success]
+09:07:44.170393 [info ]: Finished analyzing [  0.00s] (3 nodes, 1 skipped, 0 errors)
+09:07:44.172075 [info ]: Started scheduling
+09:07:44.172101 [info ]: Finished scheduling [  0.00s]
+09:07:44.173183 [info ]: Cached model count updated: 3 models (accurate)
