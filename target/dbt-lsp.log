@@ -1411,3 +1411,92 @@
 09:07:44.172075 [info ]: Started scheduling
 09:07:44.172101 [info ]: Finished scheduling [  0.00s]
 09:07:44.173183 [info ]: Cached model count updated: 3 models (accurate)
+09:12:42.538035 [info ]: Started loading project
+09:12:42.538282 [info ]: Loading profiles.yml
+09:12:42.540305 [info ]: Started parsing
+09:12:42.553052 [info ]: Finished loading project [  0.02s]
+09:12:42.554317 [debug]: Finished parsing models/staging/dim_date.sql [  0.00s]
+09:12:42.554811 [info ]: Finished parsing [  0.01s]
+09:12:42.555487 [info ]: Cached model count updated: 3 models (estimate)
+09:12:42.555496 [info ]: Cached model count updated: 3 models (accurate)
+09:12:42.555510 [info ]: Started scheduling
+09:12:42.555554 [info ]: Finished scheduling [  0.00s]
+09:12:42.555560 [debug]: Compilation - 1 nodes selected: {"model.dbt_databricks_project.dim_date"}
+09:12:42.653350 [info ]: Started building task graph
+09:12:42.653382 [info ]: Finished building task graph [  0.00s]
+09:12:42.653454 [info ]: Started rendering (1 nodes)
+09:12:42.653462 [info ]: Started model source.dim_date
+09:12:42.653468 [debug]: Started rendering model source.dim_date
+09:12:42.653898 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_date at target/.lsp/compiled/models/staging/dim_date.sql
+09:12:42.653943 [debug]: Finished rendering [  0.00s] model source.dim_date [success]
+09:12:42.653951 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+09:12:42.653957 [info ]: Started analyzing (1 nodes)
+09:12:42.653959 [debug]: Started analyzing model source.dim_date
+09:12:42.654294 [info ]:  Succeeded [-------] model source.dim_date (table)
+09:12:42.654303 [debug]: Finished analyzing [  0.00s] model source.dim_date [success]
+09:12:42.654306 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+09:12:42.655840 [info ]: Started scheduling
+09:12:42.655875 [info ]: Finished scheduling [  0.00s]
+09:12:42.656342 [info ]: Cached model count updated: 3 models (accurate)
+09:12:43.847737 [info ]: Started loading project
+09:12:43.848294 [info ]: Loading profiles.yml
+09:12:43.874370 [info ]: Cached model count updated: 3 models (estimate)
+09:12:43.874387 [info ]: Cached model count updated: 3 models (accurate)
+09:12:43.874409 [info ]: Started scheduling
+09:12:43.874454 [info ]: Finished scheduling [  0.00s]
+09:12:43.874464 [debug]: Compilation - 1 nodes selected: {"model.dbt_databricks_project.dim_date"}
+09:12:43.996968 [info ]: Started building task graph
+09:12:43.996997 [info ]: Finished building task graph [  0.00s]
+09:12:43.997063 [info ]: Started rendering (1 nodes)
+09:12:43.997070 [info ]: Started model source.dim_date
+09:12:43.997075 [debug]: Started rendering model source.dim_date
+09:12:43.997101 [info ]: Finished loading project [  0.15s]
+09:12:43.997272 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_date at target/.lsp/compiled/models/staging/dim_date.sql
+09:12:43.997306 [debug]: Finished rendering [  0.00s] model source.dim_date [success]
+09:12:43.997311 [info ]: Finished rendering [  0.00s] (1 nodes, 0 skipped, 0 errors)
+09:12:43.997318 [info ]: Started analyzing (1 nodes)
+09:12:43.997320 [debug]: Started analyzing model source.dim_date
+09:12:43.997469 [info ]:  Succeeded [-------] model source.dim_date (table)
+09:12:43.997477 [debug]: Finished analyzing [  0.00s] model source.dim_date [success]
+09:12:43.997479 [info ]: Finished analyzing [  0.00s] (1 nodes, 0 skipped, 0 errors)
+09:12:43.998845 [info ]: Started scheduling
+09:12:43.998868 [info ]: Finished scheduling [  0.00s]
+09:12:43.999468 [info ]: Cached model count updated: 3 models (accurate)
+09:12:45.182249 [info ]: Started loading project
+09:12:45.182796 [info ]: Loading profiles.yml
+09:12:45.211639 [info ]: Cached model count updated: 3 models (estimate)
+09:12:45.211689 [info ]: Cached model count updated: 3 models (accurate)
+09:12:45.211725 [info ]: Started scheduling
+09:12:45.211802 [info ]: Finished scheduling [  0.00s]
+09:12:45.211821 [debug]: Compilation - 3 nodes selected: {"model.dbt_databricks_project.dim_customer", "model.dbt_databricks_project.dim_date", "model.dbt_databricks_project.dim_store"}
+09:12:45.312563 [info ]: Started building task graph
+09:12:45.312596 [info ]: Finished building task graph [  0.00s]
+09:12:45.312664 [info ]: Started rendering (3 nodes)
+09:12:45.312671 [info ]: Started model source.dim_store
+09:12:45.312676 [debug]: Started rendering model source.dim_store
+09:12:45.312687 [info ]: Started model source.dim_date
+09:12:45.312691 [debug]: Started rendering model source.dim_date
+09:12:45.312695 [info ]: Started model source.dim_customer
+09:12:45.312697 [debug]: Started rendering model source.dim_customer
+09:12:45.312707 [info ]: Finished loading project [  0.13s]
+09:12:45.312875 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_date at target/.lsp/compiled/models/staging/dim_date.sql
+09:12:45.312875 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_store at target/.lsp/compiled/models/staging/dim_store.sql
+09:12:45.312875 [debug]: Compiled SQL for node model.dbt_databricks_project.dim_customer at target/.lsp/compiled/models/staging/dim_customer.sql
+09:12:45.312911 [debug]: Finished rendering [  0.00s] model source.dim_store [success]
+09:12:45.312920 [info ]: Started analyzing (3 nodes)
+09:12:45.312923 [debug]: Started analyzing model source.dim_store
+09:12:45.312929 [debug]: Finished rendering [  0.00s] model source.dim_date [success]
+09:12:45.312932 [debug]: Started analyzing model source.dim_date
+09:12:45.312937 [debug]: Finished rendering [  0.00s] model source.dim_customer [success]
+09:12:45.312939 [info ]: Finished rendering [  0.00s] (3 nodes, 0 skipped, 0 errors)
+09:12:45.312942 [debug]: Started analyzing model source.dim_customer
+09:12:45.313085 [info ]:  Succeeded [-------] model source.dim_date (table)
+09:12:45.313097 [debug]: Finished analyzing [  0.00s] model source.dim_date [success]
+09:12:45.313102 [info ]:  Succeeded [-------] model source.dim_store (table)
+09:12:45.313105 [debug]: Finished analyzing [  0.00s] model source.dim_store [success]
+09:12:45.313108 [info ]:  Succeeded [-------] model source.dim_customer (table)
+09:12:45.313112 [debug]: Finished analyzing [  0.00s] model source.dim_customer [success]
+09:12:45.313113 [info ]: Finished analyzing [  0.00s] (3 nodes, 0 skipped, 0 errors)
+09:12:45.314524 [info ]: Started scheduling
+09:12:45.314543 [info ]: Finished scheduling [  0.00s]
+09:12:45.315173 [info ]: Cached model count updated: 3 models (accurate)
