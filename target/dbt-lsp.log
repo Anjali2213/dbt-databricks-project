@@ -4179,3 +4179,395 @@ Vars supplied to dbt_databricks_project = {}
 16:13:39.534731 [info ]: Started scheduling
 16:13:39.534750 [info ]: Finished scheduling [  0.00s]
 16:13:39.535327 [info ]: Cached model count updated: 4 models (accurate)
+16:15:01.173624 [info ]: Started loading project
+16:15:01.173945 [info ]: Loading profiles.yml
+16:15:01.191886 [info ]: Finished loading project [  0.02s]
+16:15:01.192019 [info ]: Cached model count updated: 4 models (accurate)
+16:15:02.372394 [info ]: Started loading project
+16:15:02.372755 [info ]: Loading profiles.yml
+16:15:02.389320 [info ]: Cached model count updated: 4 models (estimate)
+16:15:02.389339 [info ]: Cached model count updated: 4 models (accurate)
+16:15:02.389357 [info ]: Started scheduling
+16:15:02.389402 [info ]: Finished scheduling [  0.00s]
+16:15:02.389412 [debug]: Compilation - 4 nodes selected: {"model.dbt_databricks_project.customer", "model.dbt_databricks_project.date", "model.dbt_databricks_project.int_customer", "model.dbt_databricks_project.store"}
+16:15:02.481473 [info ]: Started building task graph
+16:15:02.481508 [info ]: Finished building task graph [  0.00s]
+16:15:02.481573 [info ]: Started rendering (4 nodes)
+16:15:02.481580 [info ]: Started model source_bronze.store
+16:15:02.481586 [debug]: Started rendering model source_bronze.store
+16:15:02.481597 [info ]: Started model source_silver.int_customer
+16:15:02.481600 [debug]: Started rendering model source_silver.int_customer
+16:15:02.481605 [info ]: Started model source_bronze.date
+16:15:02.481607 [debug]: Started rendering model source_bronze.date
+16:15:02.481612 [info ]: Started model source_bronze.customer
+16:15:02.481615 [debug]: Started rendering model source_bronze.customer
+16:15:02.481615 [info ]: Finished loading project [  0.11s]
+16:15:02.481873 [debug]: Compiled SQL for node model.dbt_databricks_project.int_customer at target/.lsp/compiled/models/intermediate/int_customer.sql
+16:15:02.481873 [debug]: Compiled SQL for node model.dbt_databricks_project.store at target/.lsp/compiled/models/staging/store.sql
+16:15:02.481902 [debug]: Compiled SQL for node model.dbt_databricks_project.date at target/.lsp/compiled/models/staging/date.sql
+16:15:02.481917 [debug]: Finished rendering [  0.00s] model source_silver.int_customer [success]
+16:15:02.481932 [info ]: Started analyzing (4 nodes)
+16:15:02.481935 [debug]: Started analyzing model source_silver.int_customer
+16:15:02.481945 [debug]: Finished rendering [  0.00s] model source_bronze.store [success]
+16:15:02.481949 [debug]: Started analyzing model source_bronze.store
+16:15:02.481949 [debug]: Compiled SQL for node model.dbt_databricks_project.customer at target/.lsp/compiled/models/staging/customer.sql
+16:15:02.481953 [debug]: Finished rendering [  0.00s] model source_bronze.date [success]
+16:15:02.481956 [debug]: Started analyzing model source_bronze.date
+16:15:02.481987 [debug]: Finished rendering [  0.00s] model source_bronze.customer [success]
+16:15:02.482001 [info ]: Finished rendering [  0.00s] (4 nodes, 0 skipped, 0 errors)
+16:15:02.482006 [debug]: Started analyzing model source_bronze.customer
+16:15:02.482112 [info ]:  Succeeded [-------] model source_bronze.store (table)
+16:15:02.482120 [debug]: Finished analyzing [  0.00s] model source_bronze.store [success]
+16:15:02.482124 [info ]:  Succeeded [-------] model source_bronze.customer (table)
+16:15:02.482127 [debug]: Finished analyzing [  0.00s] model source_bronze.customer [success]
+16:15:02.482130 [info ]:  Succeeded [-------] model source_silver.int_customer (table)
+16:15:02.482133 [debug]: Finished analyzing [  0.00s] model source_silver.int_customer [success]
+16:15:02.482192 [info ]:  Succeeded [-------] model source_bronze.date (table)
+16:15:02.482203 [debug]: Finished analyzing [  0.00s] model source_bronze.date [success]
+16:15:02.482207 [info ]: Finished analyzing [  0.00s] (4 nodes, 0 skipped, 0 errors)
+16:15:02.483622 [info ]: Started scheduling
+16:15:02.483642 [info ]: Finished scheduling [  0.00s]
+16:15:02.484229 [info ]: Cached model count updated: 4 models (accurate)
+16:15:47.194153 [info ]: Started loading project
+16:15:47.194420 [info ]: Loading profiles.yml
+16:15:47.212413 [info ]: Finished loading project [  0.02s]
+16:15:47.212551 [info ]: Cached model count updated: 4 models (accurate)
+16:15:48.392833 [info ]: Started loading project
+16:15:48.393208 [info ]: Loading profiles.yml
+16:15:48.411095 [info ]: Cached model count updated: 4 models (estimate)
+16:15:48.411108 [info ]: Cached model count updated: 4 models (accurate)
+16:15:48.411125 [info ]: Started scheduling
+16:15:48.411168 [info ]: Finished scheduling [  0.00s]
+16:15:48.411177 [debug]: Compilation - 4 nodes selected: {"model.dbt_databricks_project.customer", "model.dbt_databricks_project.date", "model.dbt_databricks_project.int_customer", "model.dbt_databricks_project.store"}
+16:15:48.505924 [info ]: Started building task graph
+16:15:48.505961 [info ]: Finished building task graph [  0.00s]
+16:15:48.506027 [info ]: Started rendering (4 nodes)
+16:15:48.506036 [info ]: Started model source_bronze.store
+16:15:48.506041 [debug]: Started rendering model source_bronze.store
+16:15:48.506052 [info ]: Started model source_silver.int_customer
+16:15:48.506056 [debug]: Started rendering model source_silver.int_customer
+16:15:48.506061 [info ]: Started model source_bronze.date
+16:15:48.506064 [debug]: Started rendering model source_bronze.date
+16:15:48.506068 [info ]: Started model source_bronze.customer
+16:15:48.506068 [info ]: Finished loading project [  0.11s]
+16:15:48.506072 [debug]: Started rendering model source_bronze.customer
+16:15:48.507195 [debug]: Compiled SQL for node model.dbt_databricks_project.date at target/.lsp/compiled/models/staging/date.sql
+16:15:48.507195 [debug]: Compiled SQL for node model.dbt_databricks_project.customer at target/.lsp/compiled/models/staging/customer.sql
+16:15:48.507297 [debug]: Compiled SQL for node model.dbt_databricks_project.int_customer at target/.lsp/compiled/models/intermediate/int_customer.sql
+16:15:48.507297 [debug]: Compiled SQL for node model.dbt_databricks_project.store at target/.lsp/compiled/models/staging/store.sql
+16:15:48.507296 [debug]: Finished rendering [  0.00s] model source_bronze.date [success]
+16:15:48.507326 [info ]: Started analyzing (4 nodes)
+16:15:48.507345 [debug]: Started analyzing model source_bronze.date
+16:15:48.507357 [debug]: Finished rendering [  0.00s] model source_bronze.customer [success]
+16:15:48.507363 [debug]: Started analyzing model source_bronze.customer
+16:15:48.507367 [debug]: Finished rendering [  0.00s] model source_silver.int_customer [success]
+16:15:48.507372 [debug]: Started analyzing model source_silver.int_customer
+16:15:48.507376 [debug]: Finished rendering [  0.00s] model source_bronze.store [success]
+16:15:48.507378 [info ]: Finished rendering [  0.00s] (4 nodes, 0 skipped, 0 errors)
+16:15:48.507380 [debug]: Started analyzing model source_bronze.store
+16:15:48.507539 [info ]:  Succeeded [  0.00s] model source_bronze.store (table)
+16:15:48.507548 [debug]: Finished analyzing [  0.00s] model source_bronze.store [success]
+16:15:48.507573 [info ]:  Succeeded [  0.00s] model source_silver.int_customer (table)
+16:15:48.507579 [debug]: Finished analyzing [  0.00s] model source_silver.int_customer [success]
+16:15:48.507616 [info ]:  Succeeded [  0.00s] model source_bronze.customer (table)
+16:15:48.507622 [debug]: Finished analyzing [  0.00s] model source_bronze.customer [success]
+16:15:48.507627 [info ]:  Succeeded [  0.00s] model source_bronze.date (table)
+16:15:48.507633 [debug]: Finished analyzing [  0.00s] model source_bronze.date [success]
+16:15:48.507636 [info ]: Finished analyzing [  0.00s] (4 nodes, 0 skipped, 0 errors)
+16:15:48.509086 [info ]: Started scheduling
+16:15:48.509108 [info ]: Finished scheduling [  0.00s]
+16:15:48.509721 [info ]: Cached model count updated: 4 models (accurate)
+16:17:25.321879 [info ]: Started loading project
+16:17:25.322100 [info ]: Loading profiles.yml
+16:17:25.341276 [info ]: Finished loading project [  0.02s]
+16:17:25.341606 [info ]: Cached model count updated: 4 models (accurate)
+16:17:26.519739 [info ]: Started loading project
+16:17:26.520096 [info ]: Loading profiles.yml
+16:17:26.536890 [info ]: Cached model count updated: 4 models (estimate)
+16:17:26.536906 [info ]: Cached model count updated: 4 models (accurate)
+16:17:26.536926 [info ]: Started scheduling
+16:17:26.536969 [info ]: Finished scheduling [  0.00s]
+16:17:26.536977 [debug]: Compilation - 4 nodes selected: {"model.dbt_databricks_project.customer", "model.dbt_databricks_project.date", "model.dbt_databricks_project.int_customer", "model.dbt_databricks_project.store"}
+16:17:26.629784 [info ]: Started building task graph
+16:17:26.629820 [info ]: Finished building task graph [  0.00s]
+16:17:26.629884 [info ]: Started rendering (4 nodes)
+16:17:26.629892 [info ]: Started model source_bronze.store
+16:17:26.629896 [debug]: Started rendering model source_bronze.store
+16:17:26.629907 [info ]: Started model source_silver.int_customer
+16:17:26.629911 [debug]: Started rendering model source_silver.int_customer
+16:17:26.629915 [info ]: Started model source_bronze.date
+16:17:26.629918 [debug]: Started rendering model source_bronze.date
+16:17:26.629923 [info ]: Started model source_bronze.customer
+16:17:26.629926 [debug]: Started rendering model source_bronze.customer
+16:17:26.629925 [info ]: Finished loading project [  0.11s]
+16:17:26.632322 [debug]: Compiled SQL for node model.dbt_databricks_project.store at target/.lsp/compiled/models/staging/store.sql
+16:17:26.632322 [debug]: Compiled SQL for node model.dbt_databricks_project.date at target/.lsp/compiled/models/staging/date.sql
+16:17:26.632323 [debug]: Compiled SQL for node model.dbt_databricks_project.customer at target/.lsp/compiled/models/staging/customer.sql
+16:17:26.632322 [debug]: Compiled SQL for node model.dbt_databricks_project.int_customer at target/.lsp/compiled/models/intermediate/int_customer.sql
+16:17:26.632394 [debug]: Finished rendering [  0.00s] model source_silver.int_customer [success]
+16:17:26.632405 [info ]: Started analyzing (4 nodes)
+16:17:26.632408 [debug]: Started analyzing model source_silver.int_customer
+16:17:26.632416 [debug]: Finished rendering [  0.00s] model source_bronze.date [success]
+16:17:26.632420 [debug]: Started analyzing model source_bronze.date
+16:17:26.632425 [debug]: Finished rendering [  0.00s] model source_bronze.store [success]
+16:17:26.632429 [debug]: Started analyzing model source_bronze.store
+16:17:26.632434 [debug]: Finished rendering [  0.00s] model source_bronze.customer [success]
+16:17:26.632436 [info ]: Finished rendering [  0.00s] (4 nodes, 0 skipped, 0 errors)
+16:17:26.632440 [debug]: Started analyzing model source_bronze.customer
+16:17:26.632593 [info ]:  Succeeded [  0.00s] model source_bronze.customer (table)
+16:17:26.632601 [debug]: Finished analyzing [  0.00s] model source_bronze.customer [success]
+16:17:26.632605 [info ]:  Succeeded [  0.00s] model source_bronze.date (table)
+16:17:26.632608 [debug]: Finished analyzing [  0.00s] model source_bronze.date [success]
+16:17:26.632610 [info ]:  Succeeded [  0.00s] model source_silver.int_customer (table)
+16:17:26.632613 [debug]: Finished analyzing [  0.00s] model source_silver.int_customer [success]
+16:17:26.632639 [info ]:  Succeeded [  0.00s] model source_bronze.store (table)
+16:17:26.632647 [debug]: Finished analyzing [  0.00s] model source_bronze.store [success]
+16:17:26.632649 [info ]: Finished analyzing [  0.00s] (4 nodes, 0 skipped, 0 errors)
+16:17:26.634058 [info ]: Started scheduling
+16:17:26.634077 [info ]: Finished scheduling [  0.00s]
+16:17:26.634681 [info ]: Cached model count updated: 4 models (accurate)
+16:17:50.206352 [info ]: Started loading project
+16:17:50.206612 [info ]: Loading profiles.yml
+16:17:50.222832 [info ]: Finished loading project [  0.02s]
+16:17:50.222993 [info ]: Cached model count updated: 4 models (accurate)
+16:17:51.405581 [info ]: Started loading project
+16:17:51.405866 [info ]: Loading profiles.yml
+16:17:51.421486 [info ]: Cached model count updated: 4 models (estimate)
+16:17:51.421509 [info ]: Cached model count updated: 4 models (accurate)
+16:17:51.421530 [info ]: Started scheduling
+16:17:51.421580 [info ]: Finished scheduling [  0.00s]
+16:17:51.421592 [debug]: Compilation - 4 nodes selected: {"model.dbt_databricks_project.customer", "model.dbt_databricks_project.date", "model.dbt_databricks_project.int_customer", "model.dbt_databricks_project.store"}
+16:17:51.516050 [info ]: Started building task graph
+16:17:51.516090 [info ]: Finished building task graph [  0.00s]
+16:17:51.516169 [info ]: Started rendering (4 nodes)
+16:17:51.516178 [info ]: Started model source_bronze.store
+16:17:51.516184 [debug]: Started rendering model source_bronze.store
+16:17:51.516198 [info ]: Started model source_silver.int_customer
+16:17:51.516202 [debug]: Started rendering model source_silver.int_customer
+16:17:51.516206 [info ]: Started model source_bronze.date
+16:17:51.516208 [debug]: Started rendering model source_bronze.date
+16:17:51.516212 [info ]: Started model source_bronze.customer
+16:17:51.516215 [debug]: Started rendering model source_bronze.customer
+16:17:51.516219 [info ]: Finished loading project [  0.11s]
+16:17:51.517285 [debug]: Compiled SQL for node model.dbt_databricks_project.int_customer at target/.lsp/compiled/models/intermediate/int_customer.sql
+16:17:51.517319 [debug]: Finished rendering [  0.00s] model source_silver.int_customer [success]
+16:17:51.517329 [info ]: Started analyzing (4 nodes)
+16:17:51.517332 [debug]: Started analyzing model source_silver.int_customer
+16:17:51.517510 [info ]:  Succeeded [  0.00s] model source_silver.int_customer (table)
+16:17:51.517519 [debug]: Finished analyzing [  0.00s] model source_silver.int_customer [success]
+16:17:51.518293 [debug]: Compiled SQL for node model.dbt_databricks_project.store at target/.lsp/compiled/models/staging/store.sql
+16:17:51.518293 [debug]: Compiled SQL for node model.dbt_databricks_project.date at target/.lsp/compiled/models/staging/date.sql
+16:17:51.518293 [debug]: Compiled SQL for node model.dbt_databricks_project.customer at target/.lsp/compiled/models/staging/customer.sql
+16:17:51.518307 [debug]: Finished rendering [  0.00s] model source_bronze.store [success]
+16:17:51.518311 [debug]: Started analyzing model source_bronze.store
+16:17:51.518330 [debug]: Finished rendering [  0.00s] model source_bronze.date [success]
+16:17:51.518338 [debug]: Started analyzing model source_bronze.date
+16:17:51.518356 [debug]: Finished rendering [  0.00s] model source_bronze.customer [success]
+16:17:51.518362 [info ]: Finished rendering [  0.00s] (4 nodes, 0 skipped, 0 errors)
+16:17:51.518368 [debug]: Started analyzing model source_bronze.customer
+16:17:51.518401 [info ]:  Succeeded [  0.00s] model source_bronze.store (table)
+16:17:51.518406 [debug]: Finished analyzing [  0.00s] model source_bronze.store [success]
+16:17:51.518448 [info ]:  Succeeded [  0.00s] model source_bronze.date (table)
+16:17:51.518453 [debug]: Finished analyzing [  0.00s] model source_bronze.date [success]
+16:17:51.518477 [info ]:  Succeeded [  0.00s] model source_bronze.customer (table)
+16:17:51.518485 [debug]: Finished analyzing [  0.00s] model source_bronze.customer [success]
+16:17:51.518488 [info ]: Finished analyzing [  0.00s] (4 nodes, 0 skipped, 0 errors)
+16:17:51.520018 [info ]: Started scheduling
+16:17:51.520040 [info ]: Finished scheduling [  0.00s]
+16:17:51.520651 [info ]: Cached model count updated: 4 models (accurate)
+16:17:53.780083 [info ]: Started loading project
+16:17:53.780303 [info ]: Loading profiles.yml
+16:17:53.797364 [info ]: Finished loading project [  0.02s]
+16:17:53.797493 [info ]: Cached model count updated: 4 models (accurate)
+16:17:54.978114 [info ]: Started loading project
+16:17:54.978624 [info ]: Loading profiles.yml
+16:17:54.999569 [info ]: Cached model count updated: 4 models (estimate)
+16:17:54.999601 [info ]: Cached model count updated: 4 models (accurate)
+16:17:54.999629 [info ]: Started scheduling
+16:17:54.999692 [info ]: Finished scheduling [  0.00s]
+16:17:54.999705 [debug]: Compilation - 4 nodes selected: {"model.dbt_databricks_project.customer", "model.dbt_databricks_project.date", "model.dbt_databricks_project.int_customer", "model.dbt_databricks_project.store"}
+16:17:55.096400 [info ]: Started building task graph
+16:17:55.096444 [info ]: Finished building task graph [  0.00s]
+16:17:55.096517 [info ]: Started rendering (4 nodes)
+16:17:55.096523 [info ]: Started model source_bronze.store
+16:17:55.096527 [debug]: Started rendering model source_bronze.store
+16:17:55.096540 [info ]: Started model source_silver.int_customer
+16:17:55.096542 [debug]: Started rendering model source_silver.int_customer
+16:17:55.096547 [info ]: Started model source_bronze.date
+16:17:55.096550 [debug]: Started rendering model source_bronze.date
+16:17:55.096554 [info ]: Started model source_bronze.customer
+16:17:55.096557 [debug]: Started rendering model source_bronze.customer
+16:17:55.096559 [info ]: Finished loading project [  0.12s]
+16:17:55.096733 [debug]: Compiled SQL for node model.dbt_databricks_project.store at target/.lsp/compiled/models/staging/store.sql
+16:17:55.096733 [debug]: Compiled SQL for node model.dbt_databricks_project.customer at target/.lsp/compiled/models/staging/customer.sql
+16:17:55.096754 [debug]: Compiled SQL for node model.dbt_databricks_project.int_customer at target/.lsp/compiled/models/intermediate/int_customer.sql
+16:17:55.096775 [debug]: Finished rendering [  0.00s] model source_bronze.store [success]
+16:17:55.096782 [info ]: Started analyzing (4 nodes)
+16:17:55.096784 [debug]: Started analyzing model source_bronze.store
+16:17:55.096791 [debug]: Finished rendering [  0.00s] model source_bronze.customer [success]
+16:17:55.096794 [debug]: Started analyzing model source_bronze.customer
+16:17:55.096799 [debug]: Finished rendering [  0.00s] model source_silver.int_customer [success]
+16:17:55.096799 [debug]: Compiled SQL for node model.dbt_databricks_project.date at target/.lsp/compiled/models/staging/date.sql
+16:17:55.096802 [debug]: Started analyzing model source_silver.int_customer
+16:17:55.096808 [debug]: Started analyzing model source_bronze.date
+16:17:55.096819 [debug]: Finished rendering [  0.00s] model source_bronze.date [success]
+16:17:55.096822 [info ]: Finished rendering [  0.00s] (4 nodes, 0 skipped, 0 errors)
+16:17:55.096981 [info ]:  Succeeded [-------] model source_bronze.store (table)
+16:17:55.096987 [debug]: Finished analyzing [  0.00s] model source_bronze.store [success]
+16:17:55.096991 [info ]:  Succeeded [-------] model source_silver.int_customer (table)
+16:17:55.096994 [debug]: Finished analyzing [  0.00s] model source_silver.int_customer [success]
+16:17:55.097002 [info ]:  Succeeded [-------] model source_bronze.date (table)
+16:17:55.097009 [debug]: Finished analyzing [  0.00s] model source_bronze.date [success]
+16:17:55.097022 [info ]:  Succeeded [-------] model source_bronze.customer (table)
+16:17:55.097029 [debug]: Finished analyzing [  0.00s] model source_bronze.customer [success]
+16:17:55.097032 [info ]: Finished analyzing [  0.00s] (4 nodes, 0 skipped, 0 errors)
+16:17:55.098608 [info ]: Started scheduling
+16:17:55.098631 [info ]: Finished scheduling [  0.00s]
+16:17:55.099264 [info ]: Cached model count updated: 4 models (accurate)
+16:22:09.101554 [info ]: Started loading project
+16:22:09.101797 [info ]: Loading profiles.yml
+16:22:09.119848 [info ]: Finished loading project [  0.02s]
+16:22:09.120178 [info ]: Cached model count updated: 4 models (accurate)
+16:22:10.302962 [info ]: Started loading project
+16:22:10.303356 [info ]: Loading profiles.yml
+16:22:10.320874 [info ]: Cached model count updated: 4 models (estimate)
+16:22:10.320888 [info ]: Cached model count updated: 4 models (accurate)
+16:22:10.320908 [info ]: Started scheduling
+16:22:10.320958 [info ]: Finished scheduling [  0.00s]
+16:22:10.320968 [debug]: Compilation - 4 nodes selected: {"model.dbt_databricks_project.customer", "model.dbt_databricks_project.date", "model.dbt_databricks_project.int_customer", "model.dbt_databricks_project.store"}
+16:22:10.415061 [info ]: Started building task graph
+16:22:10.415100 [info ]: Finished building task graph [  0.00s]
+16:22:10.415173 [info ]: Started rendering (4 nodes)
+16:22:10.415183 [info ]: Started model source_bronze.store
+16:22:10.415189 [debug]: Started rendering model source_bronze.store
+16:22:10.415201 [info ]: Started model source_silver.int_customer
+16:22:10.415205 [debug]: Started rendering model source_silver.int_customer
+16:22:10.415209 [info ]: Started model source_bronze.date
+16:22:10.415212 [debug]: Started rendering model source_bronze.date
+16:22:10.415216 [info ]: Started model source_bronze.customer
+16:22:10.415219 [debug]: Started rendering model source_bronze.customer
+16:22:10.415219 [info ]: Finished loading project [  0.11s]
+16:22:10.417319 [debug]: Compiled SQL for node model.dbt_databricks_project.customer at target/.lsp/compiled/models/staging/customer.sql
+16:22:10.417319 [debug]: Compiled SQL for node model.dbt_databricks_project.date at target/.lsp/compiled/models/staging/date.sql
+16:22:10.417319 [debug]: Compiled SQL for node model.dbt_databricks_project.store at target/.lsp/compiled/models/staging/store.sql
+16:22:10.417319 [debug]: Compiled SQL for node model.dbt_databricks_project.int_customer at target/.lsp/compiled/models/intermediate/int_customer.sql
+16:22:10.417369 [debug]: Finished rendering [  0.00s] model source_silver.int_customer [success]
+16:22:10.417380 [info ]: Started analyzing (4 nodes)
+16:22:10.417384 [debug]: Started analyzing model source_silver.int_customer
+16:22:10.417392 [debug]: Finished rendering [  0.00s] model source_bronze.customer [success]
+16:22:10.417395 [debug]: Started analyzing model source_bronze.customer
+16:22:10.417399 [debug]: Finished rendering [  0.00s] model source_bronze.store [success]
+16:22:10.417403 [debug]: Started analyzing model source_bronze.store
+16:22:10.417407 [debug]: Finished rendering [  0.00s] model source_bronze.date [success]
+16:22:10.417411 [info ]: Finished rendering [  0.00s] (4 nodes, 0 skipped, 0 errors)
+16:22:10.417413 [debug]: Started analyzing model source_bronze.date
+16:22:10.417619 [info ]:  Succeeded [  0.00s] model source_bronze.store (table)
+16:22:10.417625 [debug]: Finished analyzing [  0.00s] model source_bronze.store [success]
+16:22:10.417629 [info ]:  Succeeded [  0.00s] model source_bronze.date (table)
+16:22:10.417633 [debug]: Finished analyzing [  0.00s] model source_bronze.date [success]
+16:22:10.417637 [info ]:  Succeeded [  0.00s] model source_silver.int_customer (table)
+16:22:10.417641 [debug]: Finished analyzing [  0.00s] model source_silver.int_customer [success]
+16:22:10.417643 [info ]:  Succeeded [  0.00s] model source_bronze.customer (table)
+16:22:10.417647 [debug]: Finished analyzing [  0.00s] model source_bronze.customer [success]
+16:22:10.417649 [info ]: Finished analyzing [  0.00s] (4 nodes, 0 skipped, 0 errors)
+16:22:10.419044 [info ]: Started scheduling
+16:22:10.419064 [info ]: Finished scheduling [  0.00s]
+16:22:10.419694 [info ]: Cached model count updated: 4 models (accurate)
+16:25:46.312097 [info ]: Started loading project
+16:25:46.312783 [info ]: Loading profiles.yml
+16:25:46.376394 [info ]: Finished loading project [  0.06s]
+16:25:46.376706 [info ]: Cached model count updated: 4 models (accurate)
+16:25:47.559017 [info ]: Started loading project
+16:25:47.559538 [info ]: Loading profiles.yml
+16:25:47.580148 [info ]: Cached model count updated: 4 models (estimate)
+16:25:47.580170 [info ]: Cached model count updated: 4 models (accurate)
+16:25:47.580207 [info ]: Started scheduling
+16:25:47.580275 [info ]: Finished scheduling [  0.00s]
+16:25:47.580287 [debug]: Compilation - 4 nodes selected: {"model.dbt_databricks_project.customer", "model.dbt_databricks_project.date", "model.dbt_databricks_project.int_customer", "model.dbt_databricks_project.store"}
+16:25:47.678150 [info ]: Started building task graph
+16:25:47.678197 [info ]: Finished building task graph [  0.00s]
+16:25:47.678282 [info ]: Started rendering (4 nodes)
+16:25:47.678290 [info ]: Started model source_bronze.store
+16:25:47.678299 [debug]: Started rendering model source_bronze.store
+16:25:47.678311 [info ]: Started model source_silver.int_customer
+16:25:47.678315 [debug]: Started rendering model source_silver.int_customer
+16:25:47.678319 [info ]: Started model source_bronze.date
+16:25:47.678322 [debug]: Started rendering model source_bronze.date
+16:25:47.678330 [info ]: Finished loading project [  0.12s]
+16:25:47.678332 [info ]: Started model source_bronze.customer
+16:25:47.678335 [debug]: Started rendering model source_bronze.customer
+16:25:47.679224 [debug]: Compiled SQL for node model.dbt_databricks_project.customer at target/.lsp/compiled/models/staging/customer.sql
+16:25:47.679270 [debug]: Finished rendering [  0.00s] model source_bronze.customer [success]
+16:25:47.679283 [info ]: Started analyzing (4 nodes)
+16:25:47.679288 [debug]: Started analyzing model source_bronze.customer
+16:25:47.679293 [debug]: Compiled SQL for node model.dbt_databricks_project.store at target/.lsp/compiled/models/staging/store.sql
+16:25:47.679300 [debug]: Compiled SQL for node model.dbt_databricks_project.int_customer at target/.lsp/compiled/models/intermediate/int_customer.sql
+16:25:47.679322 [debug]: Compiled SQL for node model.dbt_databricks_project.date at target/.lsp/compiled/models/staging/date.sql
+16:25:47.679376 [debug]: Finished rendering [  0.00s] model source_bronze.store [success]
+16:25:47.679386 [debug]: Started analyzing model source_bronze.store
+16:25:47.679394 [debug]: Finished rendering [  0.00s] model source_silver.int_customer [success]
+16:25:47.679398 [debug]: Started analyzing model source_silver.int_customer
+16:25:47.679404 [debug]: Finished rendering [  0.00s] model source_bronze.date [success]
+16:25:47.679406 [info ]: Finished rendering [  0.00s] (4 nodes, 0 skipped, 0 errors)
+16:25:47.679409 [debug]: Started analyzing model source_bronze.date
+16:25:47.679627 [info ]:  Succeeded [  0.00s] model source_bronze.store (table)
+16:25:47.679636 [debug]: Finished analyzing [  0.00s] model source_bronze.store [success]
+16:25:47.679641 [info ]:  Succeeded [-------] model source_bronze.customer (table)
+16:25:47.679644 [debug]: Finished analyzing [  0.00s] model source_bronze.customer [success]
+16:25:47.679648 [info ]:  Succeeded [  0.00s] model source_bronze.date (table)
+16:25:47.679651 [debug]: Finished analyzing [  0.00s] model source_bronze.date [success]
+16:25:47.679680 [info ]:  Succeeded [  0.00s] model source_silver.int_customer (table)
+16:25:47.679691 [debug]: Finished analyzing [  0.00s] model source_silver.int_customer [success]
+16:25:47.679694 [info ]: Finished analyzing [  0.00s] (4 nodes, 0 skipped, 0 errors)
+16:25:47.681129 [info ]: Started scheduling
+16:25:47.681148 [info ]: Finished scheduling [  0.00s]
+16:25:47.681844 [info ]: Cached model count updated: 4 models (accurate)
+16:26:03.391079 [info ]: Started loading project
+16:26:03.391514 [info ]: Loading profiles.yml
+16:26:03.421577 [info ]: Finished loading project [  0.03s]
+16:26:03.421612 [info ]: Cached model count updated: 4 models (accurate)
+16:26:04.608724 [info ]: Started loading project
+16:26:04.609129 [info ]: Loading profiles.yml
+16:26:04.627849 [info ]: Cached model count updated: 4 models (estimate)
+16:26:04.627865 [info ]: Cached model count updated: 4 models (accurate)
+16:26:04.627889 [info ]: Started scheduling
+16:26:04.627936 [info ]: Finished scheduling [  0.00s]
+16:26:04.627946 [debug]: Compilation - 4 nodes selected: {"model.dbt_databricks_project.customer", "model.dbt_databricks_project.date", "model.dbt_databricks_project.int_customer", "model.dbt_databricks_project.store"}
+16:26:04.723627 [info ]: Started building task graph
+16:26:04.723667 [info ]: Finished building task graph [  0.00s]
+16:26:04.723743 [info ]: Started rendering (4 nodes)
+16:26:04.723750 [info ]: Started model source_bronze.store
+16:26:04.723756 [debug]: Started rendering model source_bronze.store
+16:26:04.723768 [info ]: Started model source_silver.int_customer
+16:26:04.723772 [debug]: Started rendering model source_silver.int_customer
+16:26:04.723776 [info ]: Started model source_bronze.date
+16:26:04.723778 [debug]: Started rendering model source_bronze.date
+16:26:04.723783 [info ]: Started model source_bronze.customer
+16:26:04.723786 [debug]: Started rendering model source_bronze.customer
+16:26:04.723786 [info ]: Finished loading project [  0.12s]
+16:26:04.723968 [debug]: Compiled SQL for node model.dbt_databricks_project.store at target/.lsp/compiled/models/staging/store.sql
+16:26:04.723968 [debug]: Compiled SQL for node model.dbt_databricks_project.date at target/.lsp/compiled/models/staging/date.sql
+16:26:04.724013 [debug]: Compiled SQL for node model.dbt_databricks_project.customer at target/.lsp/compiled/models/staging/customer.sql
+16:26:04.724027 [debug]: Finished rendering [  0.00s] model source_bronze.store [success]
+16:26:04.724035 [info ]: Started analyzing (4 nodes)
+16:26:04.724039 [debug]: Started analyzing model source_bronze.store
+16:26:04.724048 [debug]: Finished rendering [  0.00s] model source_bronze.date [success]
+16:26:04.724052 [debug]: Started analyzing model source_bronze.date
+16:26:04.724055 [debug]: Finished rendering [  0.00s] model source_bronze.customer [success]
+16:26:04.724058 [debug]: Started analyzing model source_bronze.customer
+16:26:04.724210 [info ]:  Succeeded [-------] model source_bronze.date (table)
+16:26:04.724218 [debug]: Finished analyzing [  0.00s] model source_bronze.date [success]
+16:26:04.724229 [info ]:  Succeeded [-------] model source_bronze.store (table)
+16:26:04.724235 [debug]: Finished analyzing [  0.00s] model source_bronze.store [success]
+16:26:04.724258 [info ]:  Succeeded [-------] model source_bronze.customer (table)
+16:26:04.724263 [debug]: Finished analyzing [  0.00s] model source_bronze.customer [success]
+16:26:04.724883 [debug]: Compiled SQL for node model.dbt_databricks_project.int_customer at target/.lsp/compiled/models/intermediate/int_customer.sql
+16:26:04.724900 [debug]: Finished rendering [  0.00s] model source_silver.int_customer [success]
+16:26:04.724904 [info ]: Finished rendering [  0.00s] (4 nodes, 0 skipped, 0 errors)
+16:26:04.724913 [debug]: Started analyzing model source_silver.int_customer
+16:26:04.725030 [info ]:  Succeeded [  0.00s] model source_silver.int_customer (table)
+16:26:04.725036 [debug]: Finished analyzing [  0.00s] model source_silver.int_customer [success]
+16:26:04.725038 [info ]: Finished analyzing [  0.00s] (4 nodes, 0 skipped, 0 errors)
+16:26:04.726468 [info ]: Started scheduling
+16:26:04.726487 [info ]: Finished scheduling [  0.00s]
+16:26:04.727096 [info ]: Cached model count updated: 4 models (accurate)
