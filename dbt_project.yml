@@ -35,4 +35,6 @@ vars:
 models:
   dbt_databricks_project:
     staging:
-      +schema: bronze
+      materialized: table
+    intermediate:
+      materialized: table
